@@ -1,0 +1,88 @@
+/******************************************************************************
+Project: Seniores Digitais - Labora/Alura/Oracle ONE
+Programmer: Rosemeire Deconti
+Date: December/2020
+Challenge: https://github.com/Infoglobo/desafio-front-end
+******************************************************************************/
+.contact-container {
+  display: flex;
+  flex-direction: row;
+	justify-content: center;
+  background-color: yellow;
+}
+
+.contact-container-address{
+	background-color: white;
+	width: 50%;
+}
+
+.contact-container-contents{
+	width: auto;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 15%;
+	margin-bottom: 15%;
+}
+
+.contact-container-email{
+	background-color: #ae0000;
+	width: 50%;
+}
+
+.contact-address-title-1 {
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 25px;
+	color: black;
+}
+
+.contact-address-title-2 {
+	font-weight: bold;
+	text-align: left;
+	font-size: 20px;
+	color: black;
+}
+
+.contact-form-input {
+	display: block;
+	padding: 10px;
+	width: 95%;
+}
+
+.contact-form-title {
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 25px;
+	color: white;
+}
+
+.contact-form-label{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0px;
+	color: white;
+}
+
+.contact-form-send {
+	width:auto;
+	padding: 10px;
+	float:right;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.contact-for-send:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+.contact-section{
+	width: auto;
+  background-color: gray;
+}

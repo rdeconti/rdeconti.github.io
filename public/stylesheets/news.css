@@ -1,0 +1,82 @@
+/******************************************************************************
+Project: Seniores Digitais - Labora/Alura/Oracle ONE
+Programmer: Rosemeire Deconti
+Date: December/2020
+Challenge: https://github.com/Infoglobo/desafio-front-end
+******************************************************************************/
+.news-date{
+  padding: 5px;
+  margin-left: 10px;
+  text-align: left;
+  font-size: 15px;
+  text-align: left;
+}
+
+.news-editoria{
+  padding: 5px;
+  margin-left: 10px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.news-image{
+  padding: 5px;
+  margin-left: 10px;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width:600px;
+  max-height:300px;
+}
+
+.news-list-line{
+	width: auto;
+	margin: 0 auto;
+  text-align: center;
+}
+
+.news-list-line li{
+  border-left: 5px;
+  border-color: brown;
+  border-style: solid;
+  height: 100%;
+	display: inline-block;
+	width: 25%;
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+
+.news-more{
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: blue;
+  float: right;
+  padding: 10px;
+}
+
+.news-text{
+  padding: 5px;
+  margin-left: 10px;
+  text-align: left;
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  min-height: 200px;
+}
+
+.news-title{
+  padding: 5px;
+  margin-left: 10px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.news-section{
+  width: auto;
+  margin: 5px;
+  background-color: white;
+}
