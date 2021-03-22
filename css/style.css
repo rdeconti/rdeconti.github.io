@@ -1,0 +1,26 @@
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
+
+.body{
+    margin: 0px;
+    background-color:black;
+}
+
+.jumbotron {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color:bisque
+}
+
+.copyright{
+    font-weight: bolder;
+    color: black;
+    text-transform: uppercase;
+}
+
+.reserved{
+    font-weight: normal;
+    color: black;
+}
