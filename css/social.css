@@ -1,5 +1,5 @@
 .fa {
-  padding: 2px;
+  padding: 5px;
   font-size: 20px;
   width: auto;
   text-align: center;
@@ -16,5 +16,9 @@
 }
 
 .fa-github {
+  color: black;
+}
+
+.fa-envelope {
   color: black;
 }
