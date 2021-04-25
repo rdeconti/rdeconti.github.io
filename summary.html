@@ -8,16 +8,17 @@ Descrição:          Página RESUMO
 
 <html lang="pt-br">
 
+<!------------------------------------------------------------------------------------------------------- START HEAD -->
 <head>
+
+    <title>Deconti - Resumo</title>
 
     <meta charset="UTF-8">
 
     <meta name="description" content="Portfólio Rosemeire Argentini Deconti">
-    <meta name="keywords" content="Rosemeire, Argentini, Deconti, Front-End, SAP, SAP QM, Scrum, ASAP, Waterfall">
+    <meta name="keywords" content="Rosemeire, Argentini, Deconti, Front-End, Back-End, Full-Stack, SAP, SAP QM, Scrum, ASAP, Waterfall">
     <meta name="author" content="Rosemeire das Graças Argentini Deconti">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Resumo</title>
 
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -31,105 +32,343 @@ Descrição:          Página RESUMO
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </head>
+<!------------------------------------------------------------------------------------------------------ FINISH HEAD -->
 
+<!-------------------------------------------------------------------------------------------------------- START BODY-->
 <body>
 
-    <div class="jumbotron text-center" style="margin-bottom:0" style="padding: 0px">
+    <!------------------------------------------------------------------------------------------------- START HEADER -->
+    <header>
 
-        <h1 id="headerName">Value comes from JavaScript Function</h1>
+        <div class="container-fluid">
 
-        <div class="jumbotron text-center" style="margin-bottom:0">
+            <div class="row">
 
-            <a class="fa fa-linkedin" href="https://www.linkedin.com/in/rdeconti/" target="_blank"> Linkedin</a>
-            <a class="fa fa-github" href="https://github.com/rdeconti/" target="_blank"> Github</a>
-            <a class="fa fa-envelope" href="mailto:rdeconti@uol.com.br?Subject=Título%20da%20mensagem" target="_blank">
-                Email</a>
+                <div class="col">
 
+                    <img class="rounded-circle" width="150" height="150" src="./img/photos/photoRoseDeconti.jpg" alt="Foto da Rosemeire Deconti">
+
+                </div>
+
+                <div class="col">
+
+                    <br>
+
+                    <h1>Rosemeire das Graças Argentini Deconti</h1>
+
+                    <div class="jumbotron text-center" style="margin-right:0">
+                    
+                        <a class="fa fa-linkedin" href="https://www.linkedin.com/in/rdeconti/" target="_blank"> Linkedin</a>
+                        <a class="fa fa-github" href="https://github.com/rdeconti/" target="_blank"> Github</a>
+                        <a class="fa fa-envelope" href="mailto:rdeconti@uol.com.br?Subject=Título%20da%20mensagem" target="_blank"> Email</a>
+                        <a class="fa fa-download" href="https://rdeconti.github.io/pdf/CV.pdf" target="_blank"> Curriculum</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" >Início</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="summary.html" >Resumo</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html" >Projetos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="trainings.html" >Cursos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="education.html" >Formação</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="experience.html" >Experiência</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="hardSkills.html" >Habilidades</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="softSkills.html" >Competências</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="roadmap.html" >Mapa</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="articles.html" >Artigos</a>
+                    </li>
+
+                </ul>
+        
+            </div>
+        
+        </nav>
+
+    </header>
+    <!------------------------------------------------------------------------------------------------ FINISH HEADER -->    
+
+    <!--------------------------------------------------------------------------------------------------- START MAIN -->
+    <main>
+
+    <div class="container">
+
+        <h2>Resumo Profissional</h2>
+       
+        <!----------------------------------------------------------------------------------------------------- Cards -->
+        <div class="card-deck">
+
+            <div class="card bg-warning">
+                <div class="card-body text-center">
+                    <p class="card-text"><strong>Primeira etapa</strong></p>
+                    <p class="card-text">1984 - 1997</p>
+                    <img src="./img/summary-cobol.jpg" class="img-thumbnail" alt="Primeira etapa - Cobol" width="120" height="120">             
+                    <p class="card-text">Atuei como Programadora e Analista de Sistemas</p>
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#Stage-One">
+                        Detalhes
+                    </button>
+                </div>
+            </div>
+
+            <div class="card bg-warning">
+                <div class="card-body text-center">
+                    <p class="card-text"><strong>Segunda etapa</strong></p>
+                    <p class="card-text">1997 - 2014</p>
+                    <img src="./img/summary-sap.png" class="img-thumbnail" alt="Segunda etapa - SAP" width="120" height="120">
+                    <p class="card-text">Atuei como Consultora Funcional SAP e Líder de Projeto</p>
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#Stage-Two">
+                        Detalhes
+                    </button>
+                </div>
+            </div>
+
+            <div class="card bg-warning">
+                <div class="card-body text-center">
+                    <p class="card-text"><strong>Terceira etapa</strong></p>
+                    <p class="card-text">desde 2015</p>
+                    <img src="./img/summary-fullstack.jpeg" class="img-thumbnail" alt="Terceira etapa - Full stack" width="120" height="120">
+                    <p class="card-text">Iniciei minha transição de carreira para Desenvolvedora Web</p>
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#Stage-Three">
+                        Detalhes
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <!------------------------------------------------------------------------------------------- Modal Stage One -->
+        <div class="modal" id="Stage-One">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!--------------------------------------------------------------------------------- Modal Header -->
+                    <div class="modal-header">
+                        <h1 class="modal-title">Primeira etapa</h1>
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                    </div>
+
+                    <!---------------------------------------------------------------------------------- Modal body -->
+                    <div class="modal-body">
+
+                        <p>Iniciei minha carreira em meados de 1.984 como programadora Trainee na empresa nacional
+                        Duratex. Nesta época utilizava as linguagens de programação Cobol e Assembly. A codificação
+                        era realizada em cartões perfurados e o resultado dos processamentos chegavam em listas
+                        zebradas um dia depois.</p>
+
+                        <p>O tempo passou e iniciamos a utilização de terminais para a entrada do código dos programas.
+                        Também evolui e vieram as promoções para programadora Júnior, Pleno e Sênior. Também
+                        novas linguagens foram aprendidas como o Easytrieve e CICS.</p>
+
+                        <p>Passei da Programação para a Análise de Sistemas em 1.990 e passei a atuar junto a área de
+                        negócios desenvolvendo soluções de TI. Levanta os requisitos, especificava a forma de tratar,
+                        passava aos programadores, testava a solução e obtinha a aprovação dos usuários para realizar
+                        a implementação. Atendia a Duratex e a Fábrica de Metais Deca aos processos de produção.</p>
+
+                        <p>Ao final de 1.990 tive a oportunidade de iniciar minha jornada na multinacional alemã Hoechst
+                        do ramo químico e farmacêutico. Iniciei minha jornada como Analista de Sistemas Júnior e era
+                        responsável pela manutenção e desenvolvimento de soluções de TI para as áreas-de processo
+                        de compras, vendas e produção</p>
+
+                        <p>Desenvolvi soluções de TI em Cobol/CICS para estas áreas e fui promovida até Analista de
+                        Sistemas Sênior sendo responsável pelo subsistema de Controle da Qualidade do sistema SHTP
+                        (Sistema Hoechst de Teleprocessamento) que rodava no mainframe IBM.</p>
+
+                    </div>
+
+                    <!---------------------------------------------------------------------------------- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!------------------------------------------------------------------------------------------- Modal Stage Two -->
+        <div class="modal" id="Stage-Two">
+            <div class="modal-dialog">
+                <div class="modal-content">
+        
+                    <!--------------------------------------------------------------------------------- Modal Header -->
+                    <div class="modal-header">
+                        <h1 class="modal-title">Segunda etapa</h1>
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                    </div>
+        
+                    <!---------------------------------------------------------------------------------- Modal body -->
+                    <div class="modal-body">
+
+                        <p>Em 1997 a Hoechst foi comprada pela empresa suíça de especialidades químicas Clariant. Com
+                        ela o sistema SHTP seria desativado para a implementação do sistema SAP. A implementação
+                        foi realizada em todas as unidades da empresa ao redor do mundo. Todos os módulos do
+                        sistema foram implementados.</p>
+
+                        <p>Fui promovida a Analista Funcional SAP e tive a responsabilidade de implementar o módulo
+                        SAP QM em toda América Latina. Em 24 meses foram implementados todos os módulos no
+                        Brasil, Argentina, Chile, Peru, Colômbia, Venezuela e Guatemala</p>
+        
+                        <p>Estive em todos os países atuando nas áreas de processo para que o processo QM (Quality
+                        Management) fosse implementado de forma integral</p>
+
+                        <p>Depois tivemos o projeto de atualização do SAP em 2.000 com todas as atualizações para
+                        tratamento do Bug do Milênio entre outras novas ferramentas a serem implementadas</p>
+
+                        <p>Continuando nesta jornada participei de projetos de implementação SAP QM em Portugal,
+                        México. Também estive em projeto de Redesenho de Processo, implementação de melhorias
+                        e de ferramentas especificas do SAP QM como o Sistema de Notificações da Qualidade que foi
+                        implementado de forma global no mundo Clariant</p>
+
+                        <p>Também liderei outros projetos em SAP QM da incorporação de outras empresas pela Clariant
+                        na qual o processo Clariant recebia melhorias e o processo da empresa incorporada era
+                        substituído. Exemplo disto foi o projeto de incorporação da empresa suíça Süd-Chemie.</p>
+
+                        <p>Estive junto aos usuários SAP QM, PP, PS e PM em vários países e foram atividades muito
+                        enriquecedoras e inesquecíveis. Todas as equipes foram muito proativas nos vários países:
+                        Brasil, Argentina, Chile, Peru, Colômbia, Venezuela e Guatemala, Alemanha, Suíça, Portugal,
+                        Estados Unidos e Tailândia.</p>
+
+                        <p>Durante estes projetos recebi várias promoções e passei por Coordenadora de processos para
+                        o time de operações América Latina e liderava os processos de Produção, Manutenção,
+                        Projetos e Qualidade.</p>
+
+                        <p>Depois passei a Consultora Global de Operações para o desenvolvimento de aplicativos SAP.</p>
+
+                        <p>Em 2014 a empresa Clariant sofreu uma forte reestruturação e várias áreas foram eliminadas
+                        e outras eliminadas. O suporte ao SAP foi transferido para uma empresa Global com sede na
+                        China. Fui demitida e recebi um pacote para me aposentar por tempo de serviço.</p>
+
+                        <p>Durante meus projetos, acumulei cerca de 135 meses como líder de equipe e 65 meses como
+                        líder de projeto usando a metodologia ASAP e conceitos PMBOK. Todos os projetos SAP estão
+                        descritos ao final deste documento.</p>
+
+
+                    </div>
+        
+                    <!---------------------------------------------------------------------------------- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+
+        <!----------------------------------------------------------------------------------------- Modal Stage Three -->
+        <div class="modal" id="Stage-Three">
+            <div class="modal-dialog">
+                <div class="modal-content">
+        
+                    <!--------------------------------------------------------------------------------- Modal Header -->
+                    <div class="modal-header">
+                        <h1 class="modal-title">Terceira etapa</h1>
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                    </div>
+        
+                    <!----------------------------------------------------------------------------------- Modal body -->
+                    <div class="modal-body">
+
+                        <p>Em 2015 decidi mudar minha área de atuação como Analista Funcional SAP para
+                        Desenvolvedora WEB e iniciei minha atualização profissional estudando .NET. Desenvolvi uma
+                        plataforma.</p>
+
+                        <p>Em meados de 2016 tive a oportunidade de trabalhar na consultoria indiana TCS (Tata
+                        Consultancy Services). Inicie como consultora SAP QM atuando no tratamento de tickets da
+                        empresa MARS. Depois de algum tempo tive a oportunidade de coordenar a equipe para
+                        atendimento da MARS.</p>
+        
+                        <p>Em meados de 2017 devido a problemas de saúde de minha mãe decidi deixar a TCS.</p>
+
+                        <p>Após tudo estar resolvido voltei a me atualizar para continuar o desenvolvimento de minha
+                        plataforma WEB.</p>
+
+                        <p>Finalizei meus cursos na Udacity, Udemy e Oracle One. No momento estou participando dos
+                        Bootcamps da Digital Innovation One.</p>
+
+                        <p>Meus novos projetos estão disponíveis em meu GitHub e minha página profissional</p>
+
+                        <p>Não tenho previsão de parada. Sou apaixonada por desenvolvimento e tecnologia. Que
+                        venham novos desafios.</p>
+
+                    </div>
+        
+                    <!---------------------------------------------------------------------------------- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+        
+                </div>
+            </div>
         </div>
 
     </div>
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    </main>
+    <!-------------------------------------------------------------------------------------------------- FINISH MAIN -->
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <!------------------------------------------------------------------------------------------------- START FOOTER -->
+    <footer class="bg-dark text-center text-white">
 
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-
-            <ul class="navbar-nav">
-
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Início</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="summary.html" target="_blank">Resumo</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="projects.html" target="_blank">Projetos</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="trainings.html" target="_blank">Cursos</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="education.html" target="_blank">Formação</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="experience.html" target="_blank">Experiência</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="hardSkills.html" target="_blank">Habilidades</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="softSkills.html" target="_blank">Competências</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="roadmap.html" target="_blank">Mapa</a>
-                </li>
-
-            </ul>
-
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
+            © Copyright - Desenvolvido por Rosemeire Deconti
         </div>
 
-    </nav>
-
-    <div class="jumbotron text-center" style="margin-bottom:0">
-
-        <h1> PÁGINA EM CONSTRUÇÃO! </h1>
-        <h2> Volte em breve! </h2>
-
-    </div>
-
-    <!------------------------------------------------------------- Footer -->
-
-    <div class="jumbotron text-center" style="margin-bottom:0">
-
-        <p class="copyright">Desenvolvido por Rosemeire Deconti</p>
-        <p class="reserved"> &copy; Todos os direitos reservados</p>
-
-    </div>
-
-    <!-------------------------------------------------------- JavaScripts -->
-
-    <script language=javascript type="text/javascript" src="./js/generateHeader.js"></script>
+    </footer>
+    <!------------------------------------------------------------------------------------------------ FINISH FOOTER -->
+        
+    <!--------------------------------------------------------------------------------------------------- JAVASCRIPT -->    
+    <script language=javascript type="text/javascript" src="./js/generateSummary.js"></script>
 
     <script>
 
         $(document).ready(function () {
-            console.log("DEBUG - Atualização da página que foi carregada!");
-            generateHeader();
+            generateSummary();
         });
 
     </script>
 
 </body>
+<!------------------------------------------------------------------------------------------------------- FINISH BODY-->
 
 </html>

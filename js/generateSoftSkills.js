@@ -1,4 +1,4 @@
-function generateProjects() {
+function generateSoftSkills() {
 
     var data = [{
         "Numero": "1",
@@ -85,6 +85,6 @@ function generateProjects() {
         table.append(thead).append(tbody); 
     }
 
-    createTable(data); 
+    createTable(data);
 
 }

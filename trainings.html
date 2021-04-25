@@ -8,6 +8,32 @@ Descrição:          Página TREINAMENTOS
 
 <html lang="pt-br">
 
+<!------------------------------------------------------------------------------------------------------- START HEAD -->
+<head>
+
+    <title>Deconti - Treinamentos</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="description" content="Portfólio Rosemeire Argentini Deconti">
+    <meta name="keywords" content="Rosemeire, Argentini, Deconti, Front-End, Back-End, Full-Stack, SAP, SAP QM, Scrum, ASAP, Waterfall">
+    <meta name="author" content="Rosemeire das Graças Argentini Deconti">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/social.css">
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<!------------------------------------------------------------------------------------------------------ FINISH HEAD -->
+
 <head>
 
     <meta charset="UTF-8">
@@ -32,21 +58,174 @@ Descrição:          Página TREINAMENTOS
 
 </head>
 
+<!-------------------------------------------------------------------------------------------------------- START BODY-->
+<body>
+
+    <!------------------------------------------------------------------------------------------------- START HEADER -->
+    <header>
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col">
+
+                    <img class="rounded-circle" width="150" height="150" src="./img/photos/photoRoseDeconti.jpg" alt="Foto da Rosemeire Deconti">
+
+                </div>
+
+                <div class="col">
+
+                    <br>
+
+                    <h1>Rosemeire das Graças Argentini Deconti</h1>
+
+                    <div class="jumbotron text-center" style="margin-right:0">
+                    
+                        <a class="fa fa-linkedin" href="https://www.linkedin.com/in/rdeconti/" target="_blank"> Linkedin</a>
+                        <a class="fa fa-github" href="https://github.com/rdeconti/" target="_blank"> Github</a>
+                        <a class="fa fa-envelope" href="mailto:rdeconti@uol.com.br?Subject=Título%20da%20mensagem" target="_blank"> Email</a>
+                        <a class="fa fa-download" href="https://rdeconti.github.io/pdf/CV.pdf" target="_blank"> Curriculum</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" >Início</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="summary.html" >Resumo</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html" >Projetos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="trainings.html" >Cursos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="education.html" >Formação</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="experience.html" >Experiência</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="hardSkills.html" >Habilidades</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="softSkills.html" >Competências</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="roadmap.html" >Mapa</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="articles.html" >Artigos</a>
+                    </li>
+
+                </ul>
+        
+            </div>
+        
+        </nav>
+
+    </header>
+    <!------------------------------------------------------------------------------------------------ FINISH HEADER -->    
+
+    <!--------------------------------------------------------------------------------------------------- START MAIN -->
+    <main>
+
+        <div class="container-fluid">
+        
+            <div class="container mt-3">
+
+                <h2>Cursos de atualização</h2>
+                <h3>Página em construção - Volte em breve!</h3>
+
+                <input class="form-control" id="myInput" type="text" placeholder="Pesquise por palavra chave ...">
+
+                <br>
+
+                <div id="row-contents" class="row">
+
+                    <!-- contents generated by Javascript -->
+
+                </div>
+
+            </div>
+        
+        </div>
+
+    </main>
+    <!-------------------------------------------------------------------------------------------------- FINISH MAIN -->
+
+    <!------------------------------------------------------------------------------------------------- START FOOTER -->
+    <footer class="bg-dark text-center text-white">
+
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
+            © Copyright - Desenvolvido por Rosemeire Deconti
+        </div>
+
+    </footer>
+    <!------------------------------------------------------------------------------------------------ FINISH FOOTER -->
+
+    <script language=javascript type="text/javascript" src="./js/generateHeader.js"></script>
+    <script language=javascript type="text/javascript" src="./js/generateTrainings.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            generateTrainings();
+        });
+
+    </script>
+        
+</body>
+<!------------------------------------------------------------------------------------------------------- FINISH BODY-->
+
+
+
+
+
+
 <body>
 
     <div class="jumbotron text-center" style="margin-bottom:0" style="padding: 0px">
-
+    
         <h1 id="headerName">Value comes from JavaScript Function</h1>
-
+    
         <div class="jumbotron text-center" style="margin-bottom:0">
-
+    
             <a class="fa fa-linkedin" href="https://www.linkedin.com/in/rdeconti/" target="_blank"> Linkedin</a>
             <a class="fa fa-github" href="https://github.com/rdeconti/" target="_blank"> Github</a>
             <a class="fa fa-envelope" href="mailto:rdeconti@uol.com.br?Subject=Título%20da%20mensagem" target="_blank">
                 Email</a>
-
+            <a class="fa fa-download" href="https://rdeconti.github.io/pdf/CV.pdf" target="_blank"> Curriculum</a>
+    
         </div>
-
+    
     </div>
 
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -101,14 +280,16 @@ Descrição:          Página TREINAMENTOS
 
     </nav>
 
-    <div class="jumbotron text-center" style="margin-bottom:0">
-
-        <h1> PÁGINA EM CONSTRUÇÃO! </h1>
-        <h2> Volte em breve! </h2>
-
+    <div class="container-fluid">
+    
+        <div id="row-contents" class="row">
+    
+            <h1> PÁGINA EM CONSTRUÇÃO! </h1>
+            <h2> Volte em breve! </h2>
+    
+        </div>
+    
     </div>
-
-    <!------------------------------------------------------------- Footer -->
 
     <div class="jumbotron text-center" style="margin-bottom:0">
 
@@ -117,18 +298,7 @@ Descrição:          Página TREINAMENTOS
 
     </div>
 
-    <!-------------------------------------------------------- JavaScripts -->
 
-    <script language=javascript type="text/javascript" src="./js/generateHeader.js"></script>
-
-    <script>
-
-        $(document).ready(function () {
-            console.log("DEBUG - Atualização da página que foi carregada!");
-            generateHeader();
-        });
-
-    </script>
 
 </body>
 

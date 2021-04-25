@@ -1,6 +1,6 @@
-function generateProjects() {
+function generateTrainings() {
 
-    var projetos = [{
+    var data = [{
         "Numero": "1",
         "Nome": "PROVA DE CONCEITO SAP: ATUALIZAÇÃO GLOBAL DE EHP4 PARA EHP7",
         "Inicio": "06/2014",
@@ -54,14 +54,12 @@ function generateProjects() {
 
     function createTable(obj) {
        
-        var myElement = document.getElementById("division-projects");
+        var myElement = document.getElementById("row-contents");
 
-        // Adiciona a tabela ao body
         $(myElement).append('<table class="table"></table>');
 
-        var table = $(myElement).children('table'); // Seleciona a tabela
+        var table = $(myElement).children('table'); 
 
-        // Criar o head da table
         var thead = "<tr>";
         
         for (title in obj[0]) {
@@ -70,7 +68,6 @@ function generateProjects() {
 
         thead += "</tr>";
 
-        //Criar o body da table
         var tbody = "<tr>";
 
         obj.forEach(function (el, i) {
@@ -85,9 +82,9 @@ function generateProjects() {
 
         })
 
-        table.append(thead).append(tbody); // Adiciona a tabela completa ao body
+        table.append(thead).append(tbody); 
     }
 
-    createTable(projetos); //Aplica a função ao objeto desejado.
+    createTable(data);
 
 }
