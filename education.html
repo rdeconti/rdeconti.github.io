@@ -357,26 +357,6 @@ Descrição:          Página FORMAAÇÃO
     </footer>
     <!------------------------------------------------------------------------------------------------ FINISH FOOTER -->
 
-    <!--------------------------------------------------------------------------------------------------- JAVASCRIPT -->
-    <script language=javascript type="text/javascript" src="./js/generateEducation.js"></script>
-
-    <script>
-        // Generate data to body 
-        $(document).ready(function () {
-            generateEducation();
-        });
-
-        // Filter data from table by key word informed by user 
-        $(document).ready(function () {
-            $("#myInput").on("keyup", function () {
-                var value = $(this).val().toLowerCase();
-                $("#myTable tr").filter(function () {
-                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                });
-            });
-        });
-    </script>
-
 </body>
 <!------------------------------------------------------------------------------------------------------- FINISH BODY-->
 
