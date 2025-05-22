@@ -72,89 +72,59 @@ Descrição:          Página INICIAL
 
             </div>
 
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-                
+            <nav class="navbar navbar-expand-lg navbar-dark custom-navbar shadow-sm">
+                <a class="navbar-brand font-weight-bold" href="index.html">
+                    <i class="fa fa-home"></i> Início
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            
-                    <ul class="navbar-nav mx-auto">
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html" >Início</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="summary.html" >Resumo</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="generalData.html" >Geral</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="projectsNOSAP.html" >Projetos  WEB</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="projectsSAP.html" >Projetos SAP</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="trainings.html" >Cursos</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="education.html" >Formação</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="experience.html" >Experiência </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="hardSkills.html" >Habilidades</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="softSkills.html" >Competências</a>
-                        </li>
-
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="page_summary.html"><i class="fa fa-user"></i> Resumo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="page_general_data.html"><i class="fa fa-id-card"></i> Geral</a></li>
+                        <li class="nav-item"><a class="nav-link" href="page_projects_nosap.html"><i class="fa fa-code"></i> Projetos WEB</a></li>
+                        <li class="nav-item"><a class="nav-link" href="page_projects_sap.html"><i class="fa fa-cubes"></i> Projetos SAP</a></li>
+                        <li class="nav-item"><a class="nav-link" href="page_trainings.html"><i class="fa fa-graduation-cap"></i> Cursos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="page_education.html"><i class="fa fa-university"></i> Formação</a></li>
+                        <li class="nav-item"><a class="nav-link" href="page_experience.html"><i class="fa fa-briefcase"></i> Experiência</a></li>
+                        <li class="nav-item"><a class="nav-link" href="page_hard_skills.html"><i class="fa fa-wrench"></i> Habilidades</a></li>
+                        <li class="nav-item"><a class="nav-link" href="page_soft_skills.html"><i class="fa fa-users"></i> Competências</a></li>
                     </ul>
-            
                 </div>
-            
             </nav>
 
         </header>
         <!------------------------------------------------------------------------------------------------ FINISH HEADER -->    
 
         <!--------------------------------------------------------------------------------------------------- START MAIN -->
-        <main>
-
-            <div class="container" style="margin-top:30px">
-        
-                <div class="jumbotron text-center" style="margin-bottom:0">
-
-                    <h2>Sejam todos muito bem-vindos!</h2>
-
-                    <h5>Site atualizado em 17 de maio de 2025</h5>
-                    <br>
-                    <p>Estou em transição de carreira e meu objetivo inicial é trabalhar como desenvolvedora Front End. Com a
-                        a experiência adquirida e com os treinamentos que estou realizando pretendo depois
-                        atuar também como Back End. Ao final desta jornada pretendo trabalhar como Full Stack.</p>
-                    <p>Meu objetivo é receber, entender e entregar um projeto completo, conhecendo todos os processos para servir pontualmente e acompanhar a execução do projeto do início ao fim.</p>
-                    <p>Nesta página pessoal vocês tem acesso ao meu Curriculum online. Vocês também podem baixar a versão em PDF clicando no botão abaixo</p>
-                    <p><a class="fa fa-download" href="https://rdeconti.github.io/pdf/CV_PT.pdf" target="_blank"> Curriculum (pt)</a></p>
-                    <p>No menu de navegação você pode acessar meus projetos, minha Formação, meus Cursos e meu atual plano de carreira.</p>
-                    <p>Sintam-se a vontade para entrar em contato!</p>
-
+        <main
+            style="
+                min-height: 100vh;
+                background-image: url('https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=1500&q=80');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                position: relative;
+            "
+        >
+            <div style="background: rgba(255,255,255,0.85); min-height: 100vh;">
+                <div class="container" style="margin-top:30px">
+                    <div class="jumbotron text-center" style="margin-bottom:0; background: rgba(255,255,255,0.95);">
+                        <h2>Sejam todos muito bem-vindos!</h2>
+                        <h5>Site atualizado em 17 de maio de 2025</h5>
+                        <br>
+                        <p>Profissional com mais de 30 anos de experiência em TI, com sólida atuação em desenvolvimento de software, 
+                            arquitetura de soluções e liderança técnica, tendo migrado nos últimos anos para o ecossistema full-stack e mobile. 
+                            Experiência prévia consolidada em projetos SAP de grande porte em multinacionais, com forte atuação em back-end (Java, Node.js), 
+                            integração de sistemas, APIs REST, AWS e ferramentas modernas de desenvolvimento.</p>
+                        <p>Nesta página pessoal vocês tem acesso ao meu Curriculum online. Vocês também podem baixar a versão em PDF clicando no botão abaixo</p>
+                        <p><a class="fa fa-download" href="https://rdeconti.github.io/pdf/CV_PT.pdf" target="_blank"> Curriculum (pt)</a></p>
+                        <p>No menu de navegação você pode acessar meus projetos, minha Formação, meus Cursos e meu atual plano de carreira.</p>
+                        <p>Sintam-se a vontade para entrar em contato!</p>
+                    </div>
                 </div>
-
             </div>
-
         </main>
         <!-------------------------------------------------------------------------------------------------- FINISH MAIN -->
 
@@ -165,7 +135,7 @@ Descrição:          Página INICIAL
         <footer class="bg-dark text-center text-white">
 
             <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
-                © Copyright - Desenvolvido por Rosemeire Deconti
+                © Copyright - Desenvolvido por Rosemeire Deconti e Revisado com Github Copilot
             </div>
 
         </footer>
