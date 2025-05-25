@@ -72,27 +72,16 @@ Descrição:          Página EXPERIÊNCIA
 
             </div>
 
-            <nav class="navbar navbar-expand-lg navbar-dark custom-navbar shadow-sm">
-                <a class="navbar-brand font-weight-bold" href="index.html">
-                    <i class="fa fa-home"></i> Início
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav ml-auto">                   
-                        <li class="nav-item"><a class="nav-link" href="page_summary.html"><i class="fa fa-user"></i> Resumo</a></li>
-                        <li class="nav-item"><a class="nav-link" href="page_general_data.html"><i class="fa fa-id-card"></i> Geral</a></li>
-                        <li class="nav-item"><a class="nav-link" href="page_projects_nosap.html"><i class="fa fa-code"></i> Projetos WEB</a></li>
-                        <li class="nav-item"><a class="nav-link" href="page_projects_sap.html"><i class="fa fa-cubes"></i> Projetos SAP</a></li>
-                        <li class="nav-item"><a class="nav-link" href="page_trainings.html"><i class="fa fa-graduation-cap"></i> Cursos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="page_education.html"><i class="fa fa-university"></i> Formação</a></li>
-                        <li class="nav-item"><a class="nav-link" active href="page_experience.html"><i class="fa fa-briefcase"></i> Experiência</a></li>
-                        <li class="nav-item"><a class="nav-link" href="page_hard_skills.html"><i class="fa fa-wrench"></i> Habilidades</a></li>
-                        <li class="nav-item"><a class="nav-link" href="page_soft_skills.html"><i class="fa fa-users"></i> Competências</a></li>  
-                    </ul>
-                </div>
-            </nav>
+            <div id="nav">
+                <!-- Place this in the <head> or before </body> -->
+                <script>
+                fetch('menu.html')
+                    .then(response => response.text())
+                    .then(data => {
+                    document.getElementById('nav').innerHTML = data;
+                    });
+                </script>
+            </div>
 
         </header>
         <!------------------------------------------------------------------------------------------------ FINISH HEADER -->    
