@@ -40,41 +40,19 @@ Descrição:          Página PROJETOS SAP
         <!------------------------------------------------------------------------------------------------- START HEADER -->
         <header>
 
-            <div class="container-fluid">
-
-                <div class="row">
-
-                    <div class="col">
-
-                        <img class="rounded-circle" width="150" height="150" src="./img/photos/photoRoseDeconti.jpg" alt="Foto da Rosemeire Deconti">
-
-                    </div>
-
-                    <div class="col">
-
-                        <br>
-
-                        <h1>Rosemeire das Graças Argentini Deconti</h1>
-
-                        <div class="jumbotron text-center" style="margin-right:0">
-                        
-                            <a class="fa fa-linkedin" href="https://www.linkedin.com/in/rdeconti/" target="_blank"> Linkedin</a>
-                            <a class="fa fa-github" href="https://github.com/rdeconti/" target="_blank"> Github</a>
-                            <a class="fa fa-envelope" href="mailto:rdeconti@uol.com.br?Subject=Título%20da%20mensagem" target="_blank"> Email</a>
-                            <a class="fa fa-download" href="https://rdeconti.github.io/pdf/CV_PT.pdf" target="_blank"> Cv-Pt</a>
-                            <a class="fa fa-download" href="https://rdeconti.github.io/pdf/CV_EN.pdf" target="_blank"> Cv-En</a>
-                            
-                        </div>
-
-                    </div>
-
-                </div>
-
+            <div id="header">
+                <script>
+                fetch('common_header.html')
+                    .then(response => response.text())
+                    .then(data => {
+                    document.getElementById('header').innerHTML = data;
+                    });
+                </script>
             </div>
 
             <div id="nav">
                 <script>
-                fetch('menu.html')
+                fetch('common_menu.html')
                     .then(response => response.text())
                     .then(data => {
                     document.getElementById('nav').innerHTML = data;
@@ -431,8 +409,14 @@ Descrição:          Página PROJETOS SAP
         
         <footer class="bg-dark text-center text-white">
 
-            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
-                © Copyright - Desenvolvido por Rosemeire Deconti e Revisado com Github Copilot
+            <div id="footer">
+                <script>
+                fetch('common_footer.html')
+                    .then(response => response.text())
+                    .then(data => {
+                    document.getElementById('footer').innerHTML = data;
+                    });
+                </script>
             </div>
 
         </footer>
