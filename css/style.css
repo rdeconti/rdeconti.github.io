@@ -99,3 +99,14 @@ a.fa:hover {
 .custom-navbar .fa {
     margin-right: 6px;
 }
+
+.job {
+    margin-bottom: 5px;
+}
+.job h3 {
+    margin: 0;
+    color: #2563eb;
+}
+.job p {
+    margin: 5px 0;
+}
