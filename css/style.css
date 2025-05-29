@@ -110,3 +110,10 @@ a.fa:hover {
 .job p {
     margin: 5px 0;
 }
+
+.card-deck .card {
+    min-width: 200px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
