@@ -78,7 +78,7 @@ a.fa:hover {
 }
 .custom-navbar {
     background: linear-gradient(90deg, #1565c0 0%, #43cea2 100%);
-    border-radius: 0 0 1rem 1rem;
+    border-radius: 0 !important;
     padding: 0.5rem 1rem;
 }
 
@@ -117,3 +117,36 @@ a.fa:hover {
     margin-left: auto;
     margin-right: auto;
 }
+
+.card-deck .card.bg-warning {
+    margin: 8px;
+    background-color: #fff3cd !important; /* amarelo claro Bootstrap */
+    border: 2px solid #ffe066;
+}
+
+.card.bg-light {
+    background-color: #f8f9fa !important; /* cor padrão Bootstrap */
+    border: 2px solid #ffc107;
+}
+
+.card.bg-light:nth-child(1) {
+    background-color: #fffbe6 !important; /* amarelo claro */
+    border-color: #ffe066;
+}
+.card.bg-light:nth-child(2) {
+    background-color: #e6f7ff !important; /* azul claro */
+    border-color: #66bfff;
+}
+.card.bg-light:nth-child(3) {
+    background-color: #e6ffe6 !important; /* verde claro */
+    border-color: #66ff99;
+}
+.card-soft-1 { background-color: #fff3cd !important; border-left: 6px solid #ffc107; }
+.card-soft-2 { background-color: #e2f0d9 !important; border-left: 6px solid #28a745; }
+.card-soft-3 { background-color: #d1ecf1 !important; border-left: 6px solid #17a2b8; }
+.card-soft-4 { background-color: #f8d7da !important; border-left: 6px solid #dc3545; }
+.card-soft-5 { background-color: #f5e6ff !important; border-left: 6px solid #6f42c1; }
+.card-soft-6 { background-color: #e2e3e5 !important; border-left: 6px solid #6c757d; }
+.card-soft-7 { background-color: #ffe6e6 !important; border-left: 6px solid #fd7e14; }
+.card-soft-8 { background-color: #e6f7ff !important; border-left: 6px solid #007bff; }
+.card-soft-9 { background-color: #e6ffe6 !important; border-left: 6px solid #20c997; }
