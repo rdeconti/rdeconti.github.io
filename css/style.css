@@ -141,6 +141,10 @@ a.fa:hover {
     background-color: #e6ffe6 !important; /* verde claro */
     border-color: #66ff99;
 }
+.card.bg-light {
+    background-color: #fffbe6 !important; /* amarelo claro */
+    border: 2px solid #ffe066;
+}
 .card-soft-1 { background-color: #fff3cd !important; border-left: 6px solid #ffc107; }
 .card-soft-2 { background-color: #e2f0d9 !important; border-left: 6px solid #28a745; }
 .card-soft-3 { background-color: #d1ecf1 !important; border-left: 6px solid #17a2b8; }
