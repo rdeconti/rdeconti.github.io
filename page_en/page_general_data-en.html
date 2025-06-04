@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="Portfolio Rosemeire Argentini Deconti">
+        <meta name="keywords" content="Rosemeire, Argentini, Deconti, Front-End, Back-End, Full-Stack, SAP, SAP QM, Scrum, ASAP, Waterfall">
+        <meta name="author" content="Rosemeire das Graças Argentini Deconti">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/social.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <title>Deconti - General</title>
+
+    </head>
+ 
+    <body>
+
+        <header>
+
+            <div id="header">
+                <script>
+                fetch("../page_en/common_header-en.html")
+                    .then(response => response.text())
+                    .then(data => {
+                    document.getElementById('header').innerHTML = data;
+                    });
+                </script>
+            </div>
+
+            <div id="nav">
+                <script>
+                fetch("../page_en/common_menu-en.html")
+                    .then(response => response.text())
+                    .then(data => {
+                    document.getElementById('nav').innerHTML = data;
+                    });
+                </script>
+            </div>
+
+        </header>
+
+        <main>
+
+            <div class="container-fluid">
+                
+                <div class="container mt-3">
+
+                    <h2>General</h2>
+
+                    <div class="card-deck">
+
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <p class="card-text"><strong>PROFESSIONAL DATA</strong></p>
+                            </div>
+                            <div class="card-body text-left">
+                                <p class="card-text"><strong>Availability:</strong> Immediate</p>
+                                <p class="card-text"><strong>Preference:</strong> Home office</p>
+                                <p class="card-text"><strong>Employment type:</strong> Permanent or Contractor</p>
+                                <p class="card-text"><strong>Salary expectation:</strong> To be agreed</p>
+                                <p class="card-text"><strong>Professional status:</strong> Retired</p>
+                            </div>
+                        </div>
+
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <p class="card-text"><strong>PERSONAL DATA</strong></p>                        
+                            </div>
+                            <div class="card-body text-left">
+                                <p class="card-text"><strong>Date of birth:</strong> 05/05/1964</p>
+                                <p class="card-text"><strong>Marital status:</strong> Married, no children</p>
+                                <p class="card-text"><strong>Nationality:</strong> Brazilian</p>
+                                <p class="card-text"><strong>Location:</strong> Brazil, São Paulo</p>
+                            </div>
+                        </div>
+
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <p class="card-text"><strong>LANGUAGES</strong></p>    
+                            </div>
+                            <div class="card-body text-left">
+                                <p class="card-text"><strong>Listening, Speaking, Reading and Writing</strong></p>
+                                <p class="card-text"><strong>English:</strong> Advanced</p>
+                                <p class="card-text"><strong>Spanish:</strong> Advanced</p>
+                                <p class="card-text"><strong>Portuguese:</strong> Fluent</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </main>
+        
+        <footer class="bg-dark text-center text-white">
+
+            <div id="footer">
+                <script>
+                fetch("../page_en/common_footer-en.html")
+                    .then(response => response.text())
+                    .then(data => {
+                    document.getElementById('footer').innerHTML = data;
+                    });
+                </script>
+            </div>
+
+        </footer>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var btnPt = document.getElementById('btn-pt');
+                var btnEn = document.getElementById('btn-en');
+                if (btnPt && btnEn) {
+                    btnPt.onclick = function() {
+                        window.location.href = window.location.pathname.replace('-en.html', '.html');
+                    };
+                    btnEn.onclick = function() {
+                        if (!window.location.pathname.endsWith('-en.html')) {
+                            window.location.href = window.location.pathname.replace('.html', '-en.html');
+                        }
+                    };
+                }
+            });
+        </script>
+            
+    </body>
+
+</html>

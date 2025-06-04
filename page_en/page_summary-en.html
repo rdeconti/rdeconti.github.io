@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio Rosemeire Argentini Deconti">
+    <meta name="keywords" content="Rosemeire, Argentini, Deconti, Front-End, Back-End, Full-Stack, SAP, SAP QM, Scrum, ASAP, Waterfall">
+    <meta name="author" content="Rosemeire das Graças Argentini Deconti">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/social.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Deconti - Summary</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div id="header">
+            <script>
+            fetch('../page_en/common_header-en.html')
+                .then(response => response.text())
+                .then(data => {
+                document.getElementById('header').innerHTML = data;
+                });
+            </script>
+        </div>
+
+        <div id="nav">
+            <script>
+            fetch('../page_en/common_menu-en.html')
+                .then(response => response.text())
+                .then(data => {
+                document.getElementById('nav').innerHTML = data;
+                });
+            </script>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="container">
+
+            <h2>Summary</h2>
+        
+            <div class="card-deck">
+
+                <div class="card bg-warning">
+                    <div class="card-body text-center d-flex flex-column">
+                        <p class="card-text"><strong>First Stage</strong></p>
+                        <p class="card-text">1984 - 1997</p>
+                        <div class="w-100 d-flex justify-content-center">
+                            <img src="../img/summary/summary-cobol.jpg" class="img-thumbnail" alt="First Stage - Cobol" width="120" height="120">             
+                        </div>
+                        <p class="card-text">Worked as a Programmer and Systems Analyst</p>
+                        <button type="button" class="btn btn-info mt-auto" data-toggle="modal" data-target="#Stage-One">
+                            Details
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card bg-warning">
+                    <div class="card-body text-center d-flex flex-column">
+                        <p class="card-text"><strong>Second Stage</strong></p>
+                        <p class="card-text">1997 - 2014</p>
+                        <div class="w-100 d-flex justify-content-center">
+                            <img src="../img/summary/summary-sap.png" class="img-thumbnail" alt="Second Stage - SAP" width="120" height="120">
+                        </div>
+                        <p class="card-text">SAP Functional Consultant and Project Leader</p>
+                        <button type="button" class="btn btn-info mt-auto" data-toggle="modal" data-target="#Stage-Two">
+                            Details
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card bg-warning">
+                    <div class="card-body text-center d-flex flex-column">
+                        <p class="card-text"><strong>Third Stage</strong></p>
+                        <p class="card-text">2015 - 2024</p>
+                        <div class="w-100 d-flex justify-content-center">
+                            <img src="../img/summary/summary-fullstack.jpeg" class="img-thumbnail" alt="Third Stage - Full stack" width="120" height="120">
+                        </div>
+                        <p class="card-text">Career transition to Web Developer</p>
+                        <button type="button" class="btn btn-info mt-auto" data-toggle="modal" data-target="#Stage-Three">
+                            Details
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card bg-warning">
+                    <div class="card-body text-center d-flex flex-column">
+                        <p class="card-text"><strong>Fourth Stage</strong></p>
+                        <p class="card-text">since 2024</p>
+                        <div class="w-100 d-flex justify-content-center">
+                            <img src="../img/summary/summary-ia.jpg" class="img-thumbnail" alt="Fourth Stage - Artificial Intelligence" width="120" height="120">
+                        </div>
+                        <p class="card-text">Exploring Artificial Intelligence</p>
+                        <button type="button" class="btn btn-info mt-auto" data-toggle="modal" data-target="#Stage-Four">
+                            Details
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="w-100 text-center my-4">
+                <strong class="summary-highlight">
+                    I have no plans to stop. Let new challenges come.
+                </strong>
+            </div>
+            <div class="w-100 text-center my-4">
+                <strong class="summary-highlight">
+                    I am passionate about development and technology.
+                </strong>
+            </div>
+
+        </div>
+        
+    </main>
+
+    <br>
+    <br>
+        
+    <footer class="bg-dark text-center text-white">
+        <div id="footer">
+            <script>
+            fetch('../page_en/common_footer-en.html')
+                .then(response => response.text())
+                .then(data => {
+                document.getElementById('footer').innerHTML = data;
+                });
+            </script>
+        </div>
+    </footer>
+
+</body>
+</html>

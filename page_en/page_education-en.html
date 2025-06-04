@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <title>Deconti - Education</title>
+
+        <meta charset="UTF-8">
+
+        <meta name="description" content="Portfolio Rosemeire Argentini Deconti">
+        <meta name="keywords"
+            content="Rosemeire, Argentini, Deconti, Front-End, Back-End, Full-Stack, SAP, SAP QM, Scrum, ASAP, Waterfall">
+        <meta name="author" content="Rosemeire das Graças Argentini Deconti">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/social.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <div id="header">
+                <script>
+                fetch("../page_en/common_header-en.html")
+                    .then(response => response.text())
+                    .then(data => {
+                    document.getElementById('header').innerHTML = data;
+                    });
+                </script>
+            </div>
+
+            <div id="nav">
+                <script>
+                fetch('../page_en/common_menu-en.html')
+                    .then(response => response.text())
+                    .then(data => {
+                    document.getElementById('nav').innerHTML = data;
+                    });
+                </script>
+            </div>
+
+        </header>
+  
+        <main>
+
+            <div class="container">
+
+                <h2>Education</h2>
+
+                <!----------------------------------------------------------------------------------------------------- Cards -->
+                <div class="d-flex flex-wrap justify-content-center">
+
+                    <div class="card-deck">
+
+                        <div class="card bg-warning">
+                            <div class="card-body text-center">
+                                <p class="card-text"><strong>UFRJ / ETAPA / SAP</strong></p>
+                                <p class="card-text">2008 – 2009</p>
+                                <img src="../img/logotipos/logo_ufrj.png" class="img-thumbnail"
+                                    alt="UFRJ Education" width="90" height="90">
+                                <p class="card-text">E-MBSIG – Integrated Business Management</p>
+                            </div>
+                        </div>
+
+                        <div class="card bg-warning">
+                            <div class="card-body text-center">
+                                <p class="card-text"><strong>USP / VANZOLINI</strong></p>
+                                <p class="card-text">2003 – 2004</p>
+                                <img src="../img/logotipos/logo_usp.png" class="img-thumbnail"
+                                    alt="USP Education" width="90" height="90">
+                                <p class="card-text">CEQP – Specialisation in Quality and Productivity</p>
+                            </div>
+                        </div>
+
+                        <div class="card bg-warning">
+                            <div class="card-body text-center">
+                                <p class="card-text"><strong>MAUÁ</strong></p>
+                                <p class="card-text">1988 – 1988</p>
+                                <img src="../img/logotipos/logo_maua.png" class="img-thumbnail"
+                                    alt="MAUA Education" width="90" height="90">
+                                <p class="card-text">Extension in Information Systems</p>
+                            </div>
+                        </div>
+
+                        <div class="card bg-warning">
+                            <div class="card-body text-center">
+                                <p class="card-text"><strong>MACKENZIE</strong></p>
+                                <p class="card-text">1984 – 1986</p>
+                                <img src="../img/logotipos/logo_mackenzie.png" class="img-thumbnail"
+                                    alt="MACKENZIE Education" width="90" height="90">
+                                <p class="card-text">Bachelor's Degree in Computer Science</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="bg-dark text-center text-white">
+
+                <div id="footer">
+                    <script>
+                    fetch('../page_en/common_footer-en.html')
+                        .then(response => response.text())
+                        .then(data => {
+                        document.getElementById('footer').innerHTML = data;
+                        });
+                    </script>
+                </div>
+
+        </footer>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var btnPt = document.getElementById('btn-pt');
+                var btnEn = document.getElementById('btn-en');
+                if (btnPt && btnEn) {
+                    btnPt.onclick = function() {
+                        window.location.href = window.location.pathname.replace('-en.html', '.html');
+                    };
+                    btnEn.onclick = function() {
+                        if (!window.location.pathname.endsWith('-en.html')) {
+                            window.location.href = window.location.pathname.replace('.html', '-en.html');
+                        }
+                    };
+                }
+            });
+        </script>
+    
+    </body>
+
+</html>

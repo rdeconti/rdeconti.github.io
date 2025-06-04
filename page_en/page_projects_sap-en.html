@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="Portfolio Rosemeire Argentini Deconti">
+        <meta name="keywords" content="Rosemeire, Argentini, Deconti, Front-End, Back-End, Full-Stack, SAP, SAP QM, Scrum, ASAP, Waterfall">
+        <meta name="author" content="Rosemeire das Graças Argentini Deconti">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/social.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <title>Deconti - SAP Projects</title>
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <div id="header">
+                <script>
+                fetch("../page_en/common_header-en.html")
+                    .then(response => response.text())
+                    .then(data => {
+                    document.getElementById('header').innerHTML = data;
+                    });
+                </script>
+            </div>
+
+            <div id="nav">
+                <script>
+                fetch("../page_en/common_menu-en.html")
+                    .then(response => response.text())
+                    .then(data => {
+                    document.getElementById('nav').innerHTML = data;
+                    });
+                </script>
+            </div>
+
+        </header>
+
+        <main>
+
+            <div class="container-fluid">
+                
+
+                <h2>SAP Projects</h2>
+
+                <input class="form-control" id="myInput" type="text" placeholder="Type a keyword">
+                <br>
+
+                <table class="table table-dark">
+
+                    <thead>
+                        <tr>
+                            <th>Project</th>
+                            <th>Period</th>
+                            <th>Company</th>
+                            <th>Location</th>
+                            <th>Role</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="myTable">
+
+                        <tr>
+                            <td>SAP PROOF OF CONCEPT: GLOBAL UPGRADE FROM EHP4 TO EHP7</td>
+                            <td>06/2014 – 12/2014</td>
+                            <td>Clariant</td>
+                            <td>Brazil (working together with CCC Europe remotely)</td>
+                            <td>Team Leader</td>
+                            <td>Assessment of the impacts of the upgrade on the current global QM process and new SAP processes, including new technologies such as SAP FIORI and SAP Screen Personas. Replacement of global add-ons with new standard SAP processes to reduce TCO.</td>
+                        </tr>
+
+                        <tr>
+                            <td>SAP CARVE-OUT PROJECT: SPICE II (LATAM)</td>
+                            <td>01/2014 – 06/2014</td>
+                            <td>Clariant and Stahl</td>
+                            <td>LOCAL – Brazil, São Paulo (remotely with all countries involved)</td>
+                            <td>Team Leader</td>
+                            <td>Implementation of all Clariant SAP QM processes in the new companies of LATAM countries: Brazil, Argentina, Chile, Peru, Colombia, Venezuela, Guatemala and Mexico.</td>
+                        </tr>
+
+                        <tr>
+                            <td>SAP CARVE-OUT PROJECT: CLARIANT (LATAM) to ARCHROMA (LATAM)</td>
+                            <td>07/2013 – 12/2013</td>
+                            <td>Clariant and Süd-Chemie</td>
+                            <td>LOCAL – Brazil, São Paulo (remotely with all countries involved)</td>
+                            <td>Team Leader</td>
+                            <td>Implementation of all Clariant SAP QM processes in the company ARCHROMA in LATAM countries: Brazil, Argentina, Chile, Peru, Colombia, Venezuela, Guatemala and Mexico.</td>
+                        </tr>
+
+                        <tr>
+                            <td>SAP CARVE-IN PROJECT: SUED-CHEMIE / CLARIANT (LATAM) – MX</td>
+                            <td>01/2013 – 06/2013</td>
+                            <td>Clariant and Süd-Chemie</td>
+                            <td>INTERNATIONAL – Mexico, Puebla</td>
+                            <td>Team Leader</td>
+                            <td>Implementation of all Clariant SAP QM processes in Süd-Chemie Mexico in all laboratories.</td>
+                        </tr>
+
+                        <tr>
+                            <td>SAP CARVE-IN PROJECT: SUED-CHEMIE / CLARIANT (LATAM) – PE / BR</td>
+                            <td>07/2012 – 12/2012</td>
+                            <td>Clariant and Süd-Chemie</td>
+                            <td>INTERNATIONAL – Peru, Callao and Brazil, Jacareí</td>
+                            <td>Team Leader</td>
+                            <td>Implementation of Clariant SAP processes in Süd-Chemie Peru and Brazil in all laboratories.</td>
+                        </tr>
+
+                        <tr>
+                            <td>INTEGRATION PROJECT PREPARATION: SUED-CHEMIE AND Clariant</td>
+                            <td>10/2011 – 06/2012</td>
+                            <td>Clariant and Süd-Chemie</td>
+                            <td>INTERNATIONAL – Germany (Sulzbach and Munich)</td>
+                            <td>Team Leader</td>
+                            <td>SAP integration project between two companies: Süd-Chemie and Clariant. Responsible for the QM module globally, working with Clariant and Süd-Chemie business users in Europe and CCC from Europe, Latin America, Asia and North America. In the preparation phase, solutions were offered to integrate both companies with minimal changes to Clariant and to meet Süd-Chemie's business requirements. During all phases, working with Accenture as a partner consultant.</td>
+                        </tr>
+
+                        <tr>
+                            <td>QM IMPROVEMENT: CUSTOMER RETURNS PROCESS</td>
+                            <td>09/2011 – 11/2011</td>
+                            <td>Clariant</td>
+                            <td>REGIONAL - All Clariant countries/business units in Latin America</td>
+                            <td>Project Leader</td>
+                            <td>QM improvement process with a reduction of around 85% in the generation of inspection lots created by customer returns not related to quality reasons.</td>
+                        </tr>
+
+                        <tr>
+                            <td>SAP MII IMPLEMENTATION: QM SAMPLE MANAGEMENT BY SAP MII</td>
+                            <td>07/2011 – 07/2011</td>
+                            <td>Clariant</td>
+                            <td>INTERNATIONAL – Germany (Gendorf)</td>
+                            <td>Team Leader</td>
+                            <td>Support to implement the QM Sample Management module using SAP MII technology.</td>
+                        </tr>
+
+                        <tr>
+                            <td>QM IMPROVEMENT: SLED CONTROL FOR SUPPLIER BATCHES</td>
+                            <td>07/2011 – 08/2011</td>
+                            <td>Clariant</td>
+                            <td>REGIONAL - All Clariant countries/business units in Latin America</td>
+                            <td>Project Leader</td>
+                            <td>New controls activated in the SAP system to control the expiry date of batches delivered by suppliers and avoid receiving goods from expired batches.</td>
+                        </tr>
+
+                        <tr>
+                            <td>SAP UPGRADE PROJECT: 4.6B TO ECC 6.0</td>
+                            <td>01/2010 – 12/2010</td>
+                            <td>Clariant</td>
+                            <td>INTERNATIONAL – Germany (Sulzbach) and Brazil</td>
+                            <td>Team Leader</td>
+                            <td>Team leader of a GLOBAL team for the SAP upgrade project and responsible for QM, PM and PS modules worldwide at Clariant, working with team members from CCC Europe, Latin America, North America and Asia. Coordination tasks performed (from project phase to post-implementation) with business support. During all phases, working with Accenture as a partner.</td>
+                        </tr>
+
+                        <tr>
+                            <td>QM IMPLEMENTATION: NPDI</td>
+                            <td>05/2009 - 12/2009</td>
+                            <td>Clariant</td>
+                            <td>LOCAL – Brazil / Functional Chemicals and Pigments and Additives</td>
+                            <td>Project Leader</td>
+                            <td>Project leader in the implementation of QM to develop in PS module models (Project System) to control the development of materials that control resources, due dates and costs. PS models created to allow business units to control project phases and assign responsibility. A workflow was designed to send messages and control due dates.</td>
+                        </tr>
+
+                        <tr>
+                            <td>SAP COMPANY RESTRUCTURING: SITE TRANSFER TO SANTA CLARA</td>
+                            <td>09/2008 -03/2009</td>
+                            <td>Clariant</td>
+                            <td>INTERNATIONAL - Mexico</td>
+                            <td>Team Leader</td>
+                            <td>Team leader in the restructuring of QM processes. Customisation, functional specifications, test cycle executions, training material conversion and data conversion and post-implementation support to convert the old site QM process into a new process. Team: key business users from both sites, CCC from Latin America and Europe.</td>
+                        </tr>
+
+                        <tr>
+                            <td>QM IMPLEMENTATION: SAMPLE MANAGEMENT</td>
+                            <td>07/2008 - 11/2008</td>
+                            <td>Clariant</td>
+                            <td>REGIONAL - All Clariant countries/business units in Latin America</td>
+                            <td>Project Leader</td>
+                            <td>Project leader in QM improvement: QM Sample Management module implemented to control samples from suppliers, customers, production, competitors, special samples and R&D. Workflow developed to send messages about pending samples.</td>
+                        </tr>
+
+                        <tr>
+                            <td>QM IMPLEMENTATION: QUALITY NOTIFICATION SYSTEM (QNS)</td>
+                            <td>06/2007 – 06/2008</td>
+                            <td>Clariant</td>
+                            <td>INTERNATIONAL – United States of America (North Carolina)</td>
+                            <td>Project Leader</td>
+                            <td>Implementation of the Quality Notification System (QNS) worldwide at Clariant to control customer notifications, notifications against suppliers and internal notifications with a complex workflow developed to control all QNS phases, schedules and delays.</td>
+                        </tr>
+
+                        <tr>
+                            <td>SAP COMPANY INCORPORATION: MASTERBATCHES TOSCHEM</td>
+                            <td>08/2007 -11/2007</td>
+                            <td>Clariant / Toschem</td>
+                            <td>INTERNATIONAL - Colombia</td>
+                            <td>Team Leader</td>
+                            <td>Team leader in the incorporation of QM processes. Customisation, functional specifications, test cycle executions, training material conversion and data conversion and post-implementation support to convert the TOSCHEM QM process to the Clariant QM process. Team: key business users from both companies, main competence centre from Latin America and Europe.</td>
+                        </tr>
+
+                        <tr>
+                            <td>PP WORKFLOW IMPLEMENTATION</td>
+                            <td>12/2007 - 02/2008</td>
+                            <td>Clariant</td>
+                            <td>REGIONAL - All Clariant countries/business units in Latin America</td>
+                            <td>Project Leader</td>
+                            <td>Implementation of PP workflow to advise users about variances at EVP and QM inspection points.</td>
+                        </tr>
+
+                        <tr>
+                            <td>SAP COMPANY RESTRUCTURING: CONSOLIDATION OF A SITE</td>
+                            <td>08/2007 -11/2007</td>
+                            <td>Clariant</td>
+                            <td>INTERNATIONAL - Colombia</td>
+                            <td>Team Leader</td>
+                            <td>Team leader in the restructuring of QM processes. Customisation, functional specifications, test cycle executions, training material conversion and data conversion and post-implementation support to convert the old site QM process into a new site QM process. Team: key business users from both sites, main competence centre from Latin America and Europe.</td>
+                        </tr>
+
+                        <tr>
+                            <td>SAP COMPANY INCORPORATION: MASTERBATCHES ZACAPA</td>
+                            <td>10/2006 -01/2007</td>
+                            <td>Clariant / Zacapa</td>
+                            <td>INTERNATIONAL – Guatemala</td>
+                            <td>Team Leader</td>
+                            <td>Team leader in the incorporation of QM processes. Customisation, functional specifications, test cycle executions, training material conversion and data conversion and post-implementation support to convert the ZACAPA QM process to the Clariant process. Team: key business users from both companies, CCC from Latin America and Europe.</td>
+                        </tr>
+
+                        <tr>
+                            <td>SAP COMPANY RESTRUCTURING: MASTERBATCHES CHILE</td>
+                            <td>10/2006 -12/2006</td>
+                            <td>Clariant</td>
+                            <td>INTERNATIONAL - Chile</td>
+                            <td>Team Leader</td>
+                            <td>Team leader in the restructuring of QM processes. Customisation, functional specifications, test cycle executions, training material conversion and data conversion and post-implementation support to convert the old plant QM process into a new plant QM process. Team: key business users from both plants, CCC from Latin America and Europe.</td>
+                        </tr>
+
+                        <tr>
+                            <td>SAP COMPANY INCORPORATION: MASTERBATCHES ESCUDO</td>
+                            <td>10/2006 -12/2006</td>
+                            <td>Clariant</td>
+                            <td>INTERNATIONAL - Colombia</td>
+                            <td>Team Leader</td>
+                            <td>Team leader in the incorporation of QM processes. Customisation, functional specifications, test cycle executions, training material conversion and data conversion and post-implementation support to convert the Escudo process to the Clariant process. Team: key business users from both companies, main competence centre from Latin America and Europe.</td>
+                        </tr>
+
+                        <tr>
+                            <td>QM IMPROVEMENT: USAGE DECISION WORKFLOW</td>
+                            <td>08/2006 -10/2006</td>
+                            <td>Clariant</td>
+                            <td>REGIONAL - All Clariant countries/business units in Latin America</td>
+                            <td>Project Leader</td>
+                            <td>Team leader in QM improvement: Workflow developed to send messages about laboratory usage decision on batch stock posting to blocked stock or unrestricted stock for all areas involved, depending on the process such as production, purchasing and sales. The process was improved, avoiding communication by telephone or e-mail.</td>
+                        </tr>
+
+                        <tr>
+                            <td>QM IMPLEMENTATION: QDI</td>
+                            <td>03/2006 -06/2006</td>
+                            <td>Clariant</td>
+                            <td>REGIONAL - All Clariant countries/business units in Latin America</td>
+                            <td>Project Leader</td>
+                            <td>Project leader in QM improvement: QDI (Quality Data Interface) developed to exchange QM inspection results between several instances worldwide at Clariant: Asia, Europe, North America and Latin America. We had a reduction of around 40% in laboratory work to record inspection results.</td>
+                        </tr>
+
+                        <tr>
+                            <td>QM IMPROVEMENT: TOOLS TO CONTROL THE QM DATABASE</td>
+                            <td>02/2006 - 06/2006</td>
+                            <td>Clariant</td>
+                            <td>REGIONAL - All Clariant countries/business units in Latin America</td>
+                            <td>Project Leader</td>
+                            <td>Project leader in QM improvement: Programmes, queries and workflows developed to enable QM responsible for database control inconsistencies. We had a reduction of around 70% in the receipt of raw materials and around 60% of problems in the certificate of analysis.</td>
+                        </tr>
+
+                        <tr>
+                            <td>PS IMPLEMENTATION: CATS</td>
+                            <td>08/2005 – 10/2005</td>
+                            <td>Clariant</td>
+                            <td>Brazil (São Paulo)</td>
+                            <td>Project Leader</td>
+                            <td>Implementation of CATS (Cross-Application Time Sheet) for recording working hours and tasks, in order to control IT projects related to SAP consultants (internal and external) – tasks, time and costs. Complete monitoring of project progress, for invoice creation.</td>
+                        </tr>
+
+                        <tr>
+                            <td>QM IMPROVEMENT: LACK OF CERTIFICATE OF ANALYSIS IN WORKFLOW</td>
+                            <td>04/2005 -07/2005</td>
+                            <td>Clariant</td>
+                            <td>REGIONAL - All Clariant countries/business units in Latin America</td>
+                            <td>Project Leader</td>
+                            <td>Project leader in QM improvement: Workflow messages implemented to activate the certificate of analysis responsible in case this document was not generated in the delivery process. This process reduced by 80% the number of certificates of analysis due to incorrect maintenance of QM master data.</td>
+                        </tr>
+
+                        <tr>
+                            <td>QM IMPROVEMENT: CONTROL OF EXPIRED BATCH IN Q-STOCK</td>
+                            <td>04/2005 -06/2005</td>
+                            <td>Clariant</td>
+                            <td>REGIONAL - All Clariant countries/business units in Latin America</td>
+                            <td>Project Leader</td>
+                            <td>Project leader in QM improvement: Workflow messages implemented and recurring inspection process extended to handle expired batches. This process reduced by 95% the number of customer complaints regarding the receipt of goods from expired batches.</td>
+                        </tr>
+
+                        <tr>
+                            <td>QM IMPLEMENTATION: R&D PROJECT CONTROL</td>
+                            <td>04/2005 -06 2005</td>
+                            <td>Clariant</td>
+                            <td>REGIONAL - All Clariant countries/business units in Latin America</td>
+                            <td>Project Leader</td>
+                            <td>Project leader in QM improvement: QM notification developed to control project phases in research and development with workflow messages to control the times and delays of the resources involved.</td>
+                        </tr>
+
+                        <tr>
+                            <td>QM IMPROVEMENT: MATERIAL SPECIFICATION FOR PARTNERS</td>
+                            <td>04/2005 -05/2005</td>
+                            <td>Clariant</td>
+                            <td>REGIONAL - All Clariant countries/business units in Latin America</td>
+                            <td>Project Leader</td>
+                            <td>Project leader in QM improvement to send material specifications automatically from purchase orders by items or manually. Option to send material specification by e-mail in PDF file developed, increasing the efficiency of the purchasing department by around 80%.</td>
+                        </tr>
+
+                        <tr>
+                            <td>QM IMPROVEMENT: CONTROL QM ACTIONS MOVEMENTS IN ONE STEP</td>
+                            <td>09/2004 -12/2004</td>
+                            <td>Clariant</td>
+                            <td>REGIONAL - All Clariant countries/business units in Latin America</td>
+                            <td>Project Leader</td>
+                            <td>Project leader in QM improvement: control the movement of QM actions done in one step by QM transactions and reduce the number of stock problems by 60%.</td>
+                        </tr>
+
+                        <tr>
+                            <td>Clariant PROCESS REDESIGN</td>
+                            <td>06/2004 – 09/2004</td>
+                            <td>Clariant</td>
+                            <td>INTERNATIONAL – Germany (Sulzbach) and Brazil</td>
+                            <td>Team Leader</td>
+                            <td>Clariant process redesign carried out with the aim of reducing process complexity. All QM process documentation reviewed, approved and documented.</td>
+                        </tr>
+
+                        <tr>
+                            <td>SAP 4.6B IMPLEMENTATION PROJECT MEXICO</td>
+                            <td>01/2003 – 09/2003</td>
+                            <td>Clariant</td>
+                            <td>INTERNATIONAL – MEXICO (NAUCALPAN DE JUAREZ)</td>
+                            <td>Team Leader</td>
+                            <td>Team leader in the SAP implementation project in Mexico and responsible for PP, QM, PM and PS modules, working with members of the Clariant Core Competence Centre team from Latin America.</td>
+                        </tr>
+
+                        <tr>
+                            <td>SAP 4.6B IMPLEMENTATION PROJECT PORTUGAL</td>
+                            <td>03/2002 – 09/2002</td>
+                            <td>Clariant</td>
+                            <td>INTERNATIONAL – Portugal (Men Martins)</td>
+                            <td>Team Leader</td>
+                            <td>Team leader in the SAP implementation project in Portugal and responsible for the QM module, working with members of the Clariant Main Competence Centre team from Europe.</td>
+                        </tr>
+
+                        <tr>
+                            <td>SAP UPGRADE PROJECT: 3.0F to 4.6B</td>
+                            <td>01/2000 – 12/2000</td>
+                            <td>Clariant</td>
+                            <td>INTERNATIONAL - Germany (Sulzbach), Brazil, Argentina, Chile, Peru, Colombia, Venezuela, Guatemala</td>
+                            <td>Team Leader</td>
+                            <td>Team leader of a LATAM team for the SAP upgrade project and responsible for the QM module throughout LATAM, working with members of the Clariant Core Competence Centre team from Europe and Latin America.</td>
+                        </tr>
+
+                        <tr>
+                            <td>SAP 3.0F IMPLEMENTATION PROJECT LATIN AMERICA</td>
+                            <td>01/1997 - 12/1998</td>
+                            <td>Clariant</td>
+                            <td>INTERNATIONAL – Brazil, Argentina, Chile, Peru, Colombia, Venezuela, Guatemala</td>
+                            <td>Team Leader</td>
+                            <td>Team leader in the SAP implementation project in all Latin American countries and responsible for the QM module, working with CCC members from Europe and Latin America.</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+            
+            </div>
+
+        </main>
+        
+        <footer class="bg-dark text-center text-white">
+
+            <div id="footer">
+                <script>
+                fetch("../page_en/common_footer-en.html")
+                    .then(response => response.text())
+                    .then(data => {
+                    document.getElementById('footer').innerHTML = data;
+                    });
+                </script>
+            </div>
+
+        </footer>
+
+        <script>
+            $(document).ready(function(){
+                $("#myInput").on("keyup", function() {
+                    var value = $(this).val().toLowerCase();
+                    $("#myTable tr").filter(function() {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                    });
+                });
+            });
+        </script>
+ 
+    </body>
+
+</html>

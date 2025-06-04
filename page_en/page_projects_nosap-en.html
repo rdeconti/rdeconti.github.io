@@ -1,0 +1,368 @@
+<!--
+Autor:              Rosemeire das Graças Argentini Deconti    
+Data:               22 de Março de 2021
+Descrição:          Página PROJETOS
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="Portfolio Rosemeire Argentini Deconti">
+        <meta name="keywords" content="Rosemeire, Argentini, Deconti, Front-End, Back-End, Full-Stack, SAP, SAP QM, Scrum, ASAP, Waterfall">
+        <meta name="author" content="Rosemeire das Graças Argentini Deconti">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/social.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <title>Deconti - Web Projects</title>
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <div id="header">
+                <script>
+                fetch("../page_en/common_header-en.html")
+                    .then(response => response.text())
+                    .then(data => {
+                    document.getElementById('header').innerHTML = data;
+                    });
+                </script>
+            </div>
+
+            <div id="nav">
+                <script>
+                fetch("../page_en/common_menu-en.html")
+                    .then(response => response.text())
+                    .then(data => {
+                    document.getElementById('nav').innerHTML = data;
+                    });
+                </script>
+            </div>
+
+        </header>
+
+        <main>
+
+            <div class="container-fluid">
+            
+                <h2>Web and Mobile Projects</h2>
+
+                <input class="form-control" id="myInput" type="text" placeholder="Type a keyword">
+                <br>
+
+                <table class="table table-dark">
+
+                    <thead>
+                        <tr>
+                            <th>Project</th>
+                            <th>Date</th>
+                            <th>Duration</th>
+                            <th>Description</th>
+                            <th>GitHub</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="myTable">
+
+                        <tr>
+                            <td>SPACESHIP GAME</td>
+                            <td>02/2021</td>
+                            <td>5 hours</td>
+                            <td>Project developed during the Digital Innovation One Bootcamp to create a game using HTML5, CSS3 and Javascript.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-DIO-HTML-Jogo-Naves" target="_blank">GitHub</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>WEATHER FORECAST VIA API</td>
+                            <td>2021</td>
+                            <td>6 hours</td>
+                            <td>Project developed during the Digital Innovation One Bootcamp to consult the weather forecast via API using HTML5, CSS3, Javascript and Angular.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-DIO-ANGULAR-Previsao-Do-Tempo" target="_blank">GitHub</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>GENIUS STYLE MEMORY GAME</td>
+                            <td>2021</td>
+                            <td>2 hours</td>
+                            <td>Project developed during the Digital Innovation One Bootcamp to build a game using HTML5, CSS3 and Javascript.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-DIO-HTML-Jogo-Memoria-Genius" target="_blank">GitHub</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>SPACE SHOOTER GAME</td>
+                            <td>2021</td>
+                            <td>6 hours</td>
+                            <td>Project developed during the Digital Innovation One Bootcamp to build a game using HTML5, CSS3 and Javascript with DOM manipulation.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-DIO-HTML-Jogo-Space-Shooter" target="_blank">GitHub</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>TIC-TAC-TOE GAME</td>
+                            <td>2021</td>
+                            <td>5 hours</td>
+                            <td>Project developed during the Digital Innovation One Bootcamp to build a game using HTML5, CSS3 and Javascript with DOM manipulation.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-DIO-HTML-Jogo-Velha" target="_blank">GitHub</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>CLASSIFIEDS SYSTEM</td>
+                            <td>2021</td>
+                            <td>9 hours</td>
+                            <td>Project developed during the Digital Innovation One Bootcamp to build an object-oriented application using HTML5, CSS3, Javascript, Ruby and Ruby on Rails.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-DIO-Ruby-Sistema-De-Classificados" target="_blank">GitHub</a></td>   
+                        </tr>
+                            
+                        <tr>
+                            <td>DRAGON BALLZ SPHERE MANAGER</td>
+                            <td>2021</td>
+                            <td>3 hours</td>
+                            <td>Project developed during the Digital Innovation One Bootcamp to build an application to manage the Dragon Balls and validate if we can summon Shenlong, using HTML5, CSS3, Javascript. Cypress was used for testing.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-DIO-React-Esferas-Dragon-Ball-Z" target="_blank">GitHub</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>MEMORY GAME</td>
+                            <td>2021</td>
+                            <td>2 hours</td>
+                            <td>Project developed during the Digital Innovation One Bootcamp to build a game using HTML5, CSS3 and Javascript with DOM manipulation.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-DIO-HTML-Jogo-Memoria" target="_blank">GitHub</a></td>
+                        </tr>
+                            
+                        <tr>
+                            <td>RECREATING THE NETFLIX INTERFACE</td>
+                            <td>2021</td>
+                            <td>5 hours</td>
+                            <td>Project developed during the Digital Innovation One Bootcamp to build a game using HTML5, CSS3, Javascript, JQuery and Flexbox.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-DIO-HTML-Clone-Netflix" target="_blank">GitHub</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>RECREATING THE INSTAGRAM LOGIN</td>
+                            <td>2021</td>
+                            <td>2 hours</td>
+                            <td>Project developed during the Digital Innovation One Bootcamp to build a game using HTML5, CSS3, Javascript, JQuery and Flexbox.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-DIO-HTML-Clone-Login-Instagram" target="_blank">GitHub</a></td>
+                        </tr>
+                            
+                        <tr>
+                            <td>DINOSAUR GAME</td>
+                            <td>2021</td>
+                            <td>2 hours</td>
+                            <td>Project developed during the Digital Innovation One Bootcamp to build a game using HTML5, CSS3 and Javascript with DOM manipulation and functions.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-DIO-HTML-Jogo-Dinossauro" target="_blank">GitHub</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>SNAKE GAME</td>
+                            <td>2021</td>
+                            <td>2 hours</td>
+                            <td>Project developed during the Digital Innovation One Bootcamp to build a game using HTML5, CSS3 and Javascript.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-DIO-HTML-Jogo-Cobrinha" target="_blank">GitHub</a></td>
+                        </tr>
+                            
+                        <tr>
+                            <td>ALURA TYPER WORD GAME</td>
+                            <td>2020</td>
+                            <td>8 hours</td>
+                            <td>Project developed during the Alura/Oracle course to build a game using HTML5, CSS3, Javascript, NodeJs and Ajax.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-Alura-Typer" target="_blank">GitHub</a></td> 
+                        </tr>
+
+                        <tr>
+                            <td>ALURA CONFERENCE WEB PAGE</td>
+                            <td>2020</td>
+                            <td>8 hours</td>
+                            <td>Project developed during the Alura/Oracle course to build a page about a conference using HTML5, CSS3 and Javascript.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-Alura-Conference" target="_blank">GitHub</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>ALURA NEWS WEB PAGE</td>
+                            <td>2020</td>
+                            <td>8 hours</td>
+                            <td>Project developed during the Alura/Oracle course to build a news page using HTML5, CSS3 and Javascript.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-Alura-News" target="_blank">GitHub</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>APARECIDA NUTRITIONIST WEB PAGE</td>
+                            <td>2020</td>
+                            <td>8 hours</td>
+                            <td>Project developed during the Alura/Oracle course to build a page to manage patients in a clinic using HTML5, CSS3, Jquery, Ajax and Javascript.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-Aparecida-Nutricionista" target="_blank">GitHub</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>ALURA BARBERSHOP WEB PAGE</td>
+                            <td>2020</td>
+                            <td>8 hours</td>
+                            <td>Project developed during the Alura/Oracle course to build a page about a barbershop using HTML5, CSS3 and Javascript.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-Barbearia-Alura" target="_blank">GitHub</a></td>  
+                        </tr>
+
+                        <tr>
+                            <td>MUSIC DOT WEB PAGE</td>
+                            <td>2020</td>
+                            <td>8 hours</td>
+                            <td>Project developed based on a challenge proposed by a company and found on GitHub to build a page about a music courses company using HTML5, CSS3 and Javascript.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-MusicDot" target="_blank">GitHub</a></td> 
+                        </tr>
+
+                        <tr>
+                            <td>MINUTE NEWS WEB PAGE</td>
+                            <td>2020</td>
+                            <td>8 hours</td>
+                            <td>Project developed based on a challenge proposed by a company and found on GitHub to build a news page using JSON, HTML5, CSS3, NodeJs and Javascript.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-Minute-News" target="_blank">GitHub</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>BENNU BABIES WEB PAGE</td>
+                            <td>2020</td>
+                            <td>8 hours</td>
+                            <td>Project developed based on a challenge proposed by a company and found on GitHub to build a page about a music courses company using HTML5, CSS3 and Javascript.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-Bennu-Babies" target="_blank">GitHub</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>MERLIN'S POTIONS WEB PAGE</td>
+                            <td>2020</td>
+                            <td>8 hours</td>
+                            <td>Project developed based on a challenge proposed by a company and found on GitHub to build a page about a magic potions company using HTML5, CSS3 and Javascript.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-Bennu-Babies" target="_blank">GitHub</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>MERLIN'S POTIONS WEB PAGE</td>
+                            <td>2020</td>
+                            <td>8 hours</td>
+                            <td>Project developed based on a challenge proposed by a company and found on GitHub to build a page about a magic potions company using HTML5, CSS3 and Javascript.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-Merlins-Potions" target="_blank">GitHub</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>USER REGISTRATION</td>
+                            <td>2021</td>
+                            <td>3 hours</td>
+                            <td>Project developed during the Digital Innovation One Bootcamp to build an application to manage users. Complete CRUD using HTML5, CSS3, Javascript and Angular.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-DIO-Angular-Cadastro-Usuarios" target="_blank">GitHub</a></td>  
+                        </tr>
+
+                        <tr>
+                            <td>BANK TRANSFERS</td>
+                            <td>2021</td>
+                            <td>2 hours</td>
+                            <td>Project developed during the Digital Innovation One Bootcamp to build an object-oriented application using .NET, C# (cSharp), ENUMS and object-oriented programming.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-DIO-.Net-Transferencias-bancarias" target="_blank">GitHub</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>SERIES REGISTRATION</td>
+                            <td>2021</td>
+                            <td>2 hours</td>
+                            <td>Project developed during the Digital Innovation One Bootcamp to build an object-oriented application using .NET and C# (cSharp).</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-DIO-.Net-Cadastro-de-series" target="_blank">GitHub</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>CLASSIFIEDS SYSTEM</td>
+                            <td>2021</td>
+                            <td>9 hours</td>
+                            <td>Project developed during the Digital Innovation One Bootcamp to build an object-oriented application using HTML5, CSS3, Javascript, Ruby and Ruby on Rails.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-DIO-Ruby-Sistema-De-Classificados" target="_blank">GitHub</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>FAMOUS FILMS APP 1</td>
+                            <td>2018</td>
+                            <td>40 hours</td>
+                            <td>Project developed during the UDACITY course to build a Famous Films app that extracts data from the IMDB API (The Movie Database) implementing basic features and layout.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-UDACITY-Android-Java-Aplicativo-Filmes-Famosos-1" target="_blank">GitHub</a></td>  
+                        </tr>
+
+                        <tr>
+                            <td>FAMOUS FILMS APP 2</td>
+                            <td>2018</td>
+                            <td>40 hours</td>
+                            <td>Project developed during the UDACITY course to enhance the Famous Films app that extracts data from the IMDB API (The Movie Database) implementing the SQLite database, a content provider and using data persistence methods.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-UDACITY-Android-Java-Aplicativo-Filmes-Famosos-2" target="_blank">GitHub</a></td>
+                        </tr>
+                            
+                        <tr>
+                            <td>COOKING APP</td>
+                            <td>2018</td>
+                            <td>40 hours</td>
+                            <td>Project developed during the UDACITY course to build a cooking app using responsiveness, fragments, video display, widgets and testing with “Espresso”.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-UDACITY-Android-Java-Aplicativo-Culinaria" target="_blank">GitHub</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>JOKES APP</td>
+                            <td>2018</td>
+                            <td>40 hours</td>
+                            <td>Project developed during the UDACITY course to build a quick jokes app using responsiveness, fragments and lists.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-UDACITY-Android-Java-Aplicativo-Piadas" target="_blank">GitHub</a></td>
+                        </tr>
+                            
+                        <tr>
+                            <td>BEST MEAL APP (UDACITY FINAL PROJECT)</td>
+                            <td>2019</td>
+                            <td>2 months</td>
+                            <td>Final project developed in the Udacity course to obtain the final certification. Composed of two parts, the first being a proposal to be discussed and approved by Udacity. The second part is the development using at least three third-party libraries, following Material Design guidelines and providing a widget. SQLite and Firebase were used for data persistence.</td>
+                            <td><a href="https://github.com/rdeconti/Projeto-UDACITY-Android-Java-Aplicativo-Melhor-Refeicao" target="_blank">GitHub</a></td>
+                        </tr>
+	
+                    </tbody>
+
+                </table>
+            
+            </div>
+
+        </main>
+
+        <br>
+        <br>
+
+        <footer class="bg-dark text-center text-white">
+
+            <div id="footer">
+                <script>
+                fetch("../page_en/common_footer-en.html")
+                    .then(response => response.text())
+                    .then(data => {
+                    document.getElementById('footer').innerHTML = data;
+                    });
+                </script>
+            </div>
+
+        </footer>
+
+        <script>
+            $(document).ready(function(){
+                $("#myInput").on("keyup", function() {
+                    var value = $(this).val().toLowerCase();
+                    $("#myTable tr").filter(function() {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                    });
+                });
+            });
+        </script>
+
+    </body>
+
+</html>

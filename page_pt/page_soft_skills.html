@@ -4,25 +4,23 @@
 
     <head>
 
-        <title>Deconti - Competências</title>
-
         <meta charset="UTF-8">
-
         <meta name="description" content="Portfólio Rosemeire Argentini Deconti">
         <meta name="keywords" content="Rosemeire, Argentini, Deconti, Front-End, Back-End, Full-Stack, SAP, SAP QM, Scrum, ASAP, Waterfall">
         <meta name="author" content="Rosemeire das Graças Argentini Deconti">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/social.css">
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-        <link rel="stylesheet" type="text/css" href="./css/style.css">
-        <link rel="stylesheet" type="text/css" href="./css/social.css">
 
         <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <title>Deconti - Competências</title>
 
     </head>
 
@@ -32,7 +30,7 @@
 
             <div id="header">
                 <script>
-                fetch('common_header.html')
+                fetch('../page_pt/common_header.html')
                     .then(response => response.text())
                     .then(data => {
                     document.getElementById('header').innerHTML = data;
@@ -42,7 +40,7 @@
 
             <div id="nav">
                 <script>
-                fetch('common_menu.html')
+                fetch('../page_pt/common_menu.html')
                     .then(response => response.text())
                     .then(data => {
                     document.getElementById('nav').innerHTML = data;
@@ -128,7 +126,7 @@
 
                 <div id="footer">
                     <script>
-                    fetch('common_footer.html')
+                    fetch('../page_pt/common_footer.html')
                         .then(response => response.text())
                         .then(data => {
                         document.getElementById('footer').innerHTML = data;

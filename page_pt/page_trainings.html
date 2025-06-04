@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+     <head>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="Portfólio Rosemeire Argentini Deconti">
+        <meta name="keywords" content="Rosemeire, Argentini, Deconti, Front-End, Back-End, Full-Stack, SAP, SAP QM, Scrum, ASAP, Waterfall">
+        <meta name="author" content="Rosemeire das Graças Argentini Deconti">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/social.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <title>Deconti - Cursos</title>
+
+    </head>
+ 
+    <body>
+
+         <header>
+
+            <div id="header">
+                <script>
+                fetch('../page_pt/common_header.html')
+                    .then(response => response.text())
+                    .then(data => {
+                    document.getElementById('header').innerHTML = data;
+                    });
+                </script>
+            </div>
+
+            <div id="nav">
+                <script>
+                fetch('../page_pt/common_menu.html')
+                    .then(response => response.text())
+                    .then(data => {
+                    document.getElementById('nav').innerHTML = data;
+                    });
+                </script>
+            </div>
+
+        </header>
+ 
+        <main>
+
+            <div class="container-fluid">
+            
+                <h2>Cursos de Atualização Profissional</h2>
+
+                <input class="form-control" id="myInput" type="text" placeholder="Digite por palavra chave">
+                <br>
+
+                <table class="table table-dark">
+
+                    <thead>
+                        <tr>
+                            <th>Certificado</th>
+                            <th>Curso</th>
+                            <th>Nível</th>
+                            <th>Atividades</th>
+                            <th>Horas</th>
+                            <th>Descrição</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="myTable">
+
+                        <tr>
+                            <!-- <td><img src="./img/certificates/3AC5FD29.pdf" class="img-thumbnail" alt="Certificado" width="120" height="120"></td>  -->
+                            <td>3AC5FD29</td>
+                            <td>MRV .NET Developer</td>
+                            <td>Intermediário</td>
+                            <td>25</td>
+                            <td>90</td>
+                            <td>Bem-vindo ao bootcamp MRV .NET DEVELOPER é um programa gratuito para formação de desenvolvedores .NET com foco em soluções em C#, sendo a porta de entrada para conquistar uma oportunidade de contratação na MRV, a empresa parceira nos projetos da maior Construtora da América Latina.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Em andamento</td>
+                            <td>Take Blip Fullstack Developer</td>
+                            <td>Intermediário</td>
+                            <td>23</td>
+                            <td>97</td>
+                            <td>Desenvolva soluções fullstack aproveitando o melhor que o C#, a principal linguagem da Microsoft pode oferecer, e crie aplicações completas utilizando React no front-end. Ao final dessa jornada, você será capaz de construir aplicações web modernas e dentro das boas práticas do mercado.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Em andamento</td>
+                            <td>Code Anywhere</td>
+                            <td>Intermediário</td>
+                            <td>17</td>
+                            <td>94</td>
+                            <td>Desenvolva projetos com Spring Boot, Spring Cloud e Azure em conjunto com os melhores experts da Avanade para ampliar o seu conhecimento, criar um portfólio inovador e conquistar grandes oportunidades.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Em andamento</td>
+                            <td>Everis Kotlin Developer</td>
+                            <td>Intermediário</td>
+                            <td>24</td>
+                            <td>80</td>
+                            <td>Se o seu sonho sempre foi aprender a como desenvolver aplicativos Android, este bootcamp é para você! Com foco em desenvolvimento de software utilizando Kotlin, uma linguagem de programação multiplataforma derivada do Java, você irá aprender desde o zero com os melhores especialistas no tema ao mesmo tempo que se prepara para uma oportunidade de contratação na everis, empresa multinacional com sede em Madri, líder em soluções tecnológicas.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>D035856C</td>
+                            <td>LocalizaLabs .NET Developer</td>
+                            <td>Intermediário</td>
+                            <td>21</td>
+                            <td>90</td>
+                            <td>Bem-vindo ao bootcamp #LocalizaLabs! O #LocalizaLabs é o laboratório de tecnologia e inovação da Localiza e conta com quase 700 colaboradores totalmente dedicados à tecnologia e a tudo o que ela nos possibilita na jornada de transformação. Acreditamos que a inovação, na prática, só é possível por meio da troca de compartilhamento de ideias, por isso, essa trilha é formada por conteúdos com experts em diferentes habilidades das skills esperadas no programa de contratação. Aqui você vai aprender e desenvolver competências buscadas no mercado de .NET utilizando C# e ainda pode conquistar uma oportunidade de integrar o time da maior locadora de veículos da América Latina.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>99C6CFEB</td>
+                            <td>Inter Java Developer</td>
+                            <td>Intermediário</td>
+                            <td>23</td>
+                            <td>95</td>
+                            <td>Neste bootcamp você terá contato com as principais tecnologias utilizadas pelo Inter e ainda terá a chance de ser contratado pela empresa, que foi o primeiro banco 100% digital do Brasil e atualmente já é uma plataforma completa de serviços financeiros e não financeiros pensada para simplificar a vida dos clientes. Essa é sua chance de impulsionar sua carreira em desenvolvimento de software se aprofundando na linguagem Java com experts da área e realizando diversos projetos práticos e desafios de código.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>4A558896</td>
+                            <td>Impulso FullStack Developer</td>
+                            <td>Intermediário</td>
+                            <td>28</td>
+                            <td>104</td>
+                            <td>Impulsione sua carreira em desenvolvimento de software e fique por dentro das tecnologias utilizadas pela Impulso, uma empresa de tecnologia da informação com projetos pioneiros e de grande impacto no mercado.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Em andamento</td>
+                            <td>Avanade Angular Developer</td>
+                            <td>Intermediário</td>
+                            <td>24</td>
+                            <td>82</td>
+                            <td>Nesse bootcamp você vai desenvolver projetos usando Angular 8, além de aprender os requisitos básicos para conquistar oportunidades na Avanade Brasil, empresa multinacional presente em 25 países. Não perca a oportunidade de impulsionar sua carreira em tecnologia e garanta sua matrícula.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>C7EAB050</td>
+                            <td>Java Developer</td>
+                            <td>Intermediário</td>
+                            <td>27</td>
+                            <td>120</td>
+                            <td>Java é uma das linguagens back-end mais utilizada por desenvolvedores de todo o mundo. Neste bootcamp você aprenderá o passo a passo da tecnologia e desenvolverá projetos 100% práticos.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>D51501E5</td>
+                            <td>JavaScript Game Developer</td>
+                            <td>Intermediário</td>
+                            <td>27</td>
+                            <td>108</td>
+                            <td>Aprenda de forma divertida a criar jogos com JavaScript para inciar a sua carreira em desenvolvimento front-end e se transformar em um dev de alto nível.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>EFE5E947</td>
+                            <td>HTML Web Developer</td>
+                            <td>Básico</td>
+                            <td>11</td>
+                            <td>27</td>
+                            <td>Aprenda a programar páginas de internet e desenvolver websites utilizando HTML, CSS e JavaScript para iniciar sua trajetória profissional em desenvolvimento web front-end.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>400F6F81</td>
+                            <td>Backend Developer Carrefour</td>
+                            <td>Intermediário</td>
+                            <td>24</td>
+                            <td>100</td>
+                            <td>Aprenda as tecnologias usadas no Carrefour e se prepare para trabalhar em uma empresa global! Esse treinamento foi desenvolvido para que você conheça quais tecnologias são usadas no Carrefour.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>CE76B68C</td>
+                            <td>.Net Fundamentals</td>
+                            <td>Básico</td>
+                            <td>12</td>
+                            <td>40</td>
+                            <td>Esse bootcamp é para as pessoas que estão iniciando sua carreira em desenvolvimento de software. Você aprenderá a desenvolver projetos em uma das linguagens de back-end mais utilizadas no mundo, o .NET C#, e a resolver algoritmos tendo um aprendizado completo, da teoria à prática.As inscrições ficam disponíveis até dia 05/05</td>
+                        </tr>
+
+                        <tr>
+                            <td>1E10BD6F</td>
+                            <td>Fullstack Developer Banco Carrefour</td>
+                            <td>Intermediário</td>
+                            <td>24</td>
+                            <td>96</td>
+                            <td>Aprenda gratuitamente quais são as tecnologias usadas no Banco Carrefour, uma instituição que oferece diversos serviços financeiros aos seus clientes.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Em andamento</td>
+                            <td>SPTech Desenvolvimento Back-end</td>
+                            <td>Intermediário</td>
+                            <td>16</td>
+                            <td>73</td>
+                            <td>Aqui você aprenderá a desenvolver plataformas web utilizando a linguagem PHP e seus principais frameworks e bibliotecas disponíveis.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Em andamento</td>
+                            <td>SPTech Desenvolvimento Front-end</td>
+                            <td>Intermediário</td>
+                            <td>24</td>
+                            <td>82</td>
+                            <td>Você aprenderá muito mais sobre os conceitos de desenvolvimento front-end utilizando o React.js para atuação em projetos e no desenvolvimento web, por meio de componentes da interface de usuários.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Em andamento</td>
+                            <td>SPTech Desenvolvimento Fullstack</td>
+                            <td>Intermediário</td>
+                            <td>36</td>
+                            <td>109</td>
+                            <td>Você aprenderá os conceitos de desenvolvimento de software para criação de soluções digitais, de desenvolvimento front-end e ReactJS para atuação em projetos de desenvolvimento web e de componentes da interface de usuários</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>D67D4E15</td>
+                            <td>Aceleração Global Dev #8 Avanade</td>
+                            <td>Avançado</td>
+                            <td>7</td>
+                            <td>10</td>
+                            <td>Continue evoluindo na sua carreira pisando no acelerador, chegou a hora de você se preparar para o próximo nível com dicas e orientações de grandes especialistas em desenvolvimento de software da Avanade. Eleve seu conhecimento em Angular e torne-se um profissional de destaque. Melhor ainda: você vai aprender com os melhores e vai poder ter a chance de conquistar uma oportunidade de contratação nesse time de elite da Avanade, a consultoria líder em soluções digitais inovadoras em tecnologias corporativas. Está preparado? Então confira abaixo todo o programa!</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>EBD7A690</td>
+                            <td>Aceleração Global Dev #7 Avanade</td>
+                            <td>Avançado</td>
+                            <td>7</td>
+                            <td>10</td>
+                            <td>A tecnologia está evoluindo, e você também precisa! Chegou a hora de você acelerar e deixar sua carreira alinhada com a mesma direção que o mercado está indo e entender o que você precisa saber para estar em dia quando se trata de tecnologia de ponta. Você terá as melhores lições, dicas e orientações de grandes especialistas em desenvolvimento de software da Avanade. Eleve seu conhecimento no que há de mais novo na nova plataforma unificada da Microsoft e entenda o por que o .NET 5 é o futuro da tecnologia. Melhor ainda: você vai aprender com os melhores e vai poder ter a chance de conquistar uma oportunidade de contratação nesse time de elite da Avanade, a consultoria líder em soluções digitais inovadoras em tecnologias corporativas. Está preparado? Então confira abaixo todo o programa!</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+            
+            </div>
+
+        </main>
+         
+        <footer class="bg-dark text-center text-white">
+
+            <div id="footer">
+                <script>
+                fetch('../page_pt/common_footer.html')
+                    .then(response => response.text())
+                    .then(data => {
+                    document.getElementById('footer').innerHTML = data;
+                    });
+                </script>
+            </div>
+
+        </footer>
+   
+        <script>
+
+            $(document).ready(function(){
+
+                $("#myInput").on("keyup", function() {
+
+                        var value = $(this).val().toLowerCase();
+                        $("#myTable tr").filter(function() {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+
+                    });
+                });
+            });
+
+        </script>
+  
+    </body>
+ 
+</html>

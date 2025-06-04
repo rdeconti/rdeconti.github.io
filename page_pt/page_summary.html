@@ -5,25 +5,23 @@
 <!------------------------------------------------------------------------------------------------------- START HEAD -->
 <head>
 
-    <title>Deconti - Resumo</title>
-
     <meta charset="UTF-8">
-
     <meta name="description" content="Portfólio Rosemeire Argentini Deconti">
     <meta name="keywords" content="Rosemeire, Argentini, Deconti, Front-End, Back-End, Full-Stack, SAP, SAP QM, Scrum, ASAP, Waterfall">
     <meta name="author" content="Rosemeire das Graças Argentini Deconti">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" type="text/css" href="/rdeconti.github.io/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/rdeconti.github.io/css/social.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <link rel="stylesheet" type="text/css" href="./css/social.css">
 
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Deconti - Resumo</title>
 
 </head>
 <!------------------------------------------------------------------------------------------------------ FINISH HEAD -->
@@ -36,7 +34,7 @@
 
             <div id="header">
                 <script>
-                fetch('common_header.html')
+                fetch('../page_pt/common_header.html')
                     .then(response => response.text())
                     .then(data => {
                     document.getElementById('header').innerHTML = data;
@@ -46,7 +44,7 @@
 
             <div id="nav">
                 <script>
-                fetch('common_menu.html')
+                fetch('../page_pt/common_menu.html')
                     .then(response => response.text())
                     .then(data => {
                     document.getElementById('nav').innerHTML = data;
@@ -72,7 +70,7 @@
                     <p class="card-text"><strong>Primeira etapa</strong></p>
                     <p class="card-text">1984 - 1997</p>
                     <div class="w-100 d-flex justify-content-center">
-                        <img src="./img/summary-cobol.jpg" class="img-thumbnail" alt="Primeira etapa - Cobol" width="120" height="120">             
+                        <img src="../img/summary/summary-cobol.jpg" class="img-thumbnail" alt="Primeira etapa - Cobol" width="120" height="120">             
                     </div>
                     <p class="card-text">Atuei como Programadora e Analista de Sistemas</p>
                     <button type="button" class="btn btn-info mt-auto" data-toggle="modal" data-target="#Stage-One">
@@ -86,7 +84,7 @@
                     <p class="card-text"><strong>Segunda etapa</strong></p>
                     <p class="card-text">1997 - 2014</p>
                     <div class="w-100 d-flex justify-content-center">
-                        <img src="./img/summary-sap.png" class="img-thumbnail" alt="Segunda etapa - SAP" width="120" height="120">
+                        <img src="../img/summary/summary-sap.png" class="img-thumbnail" alt="Segunda etapa - SAP" width="120" height="120">
                     </div>
                     <p class="card-text">Consultora Funcional SAP e Líder de Projeto</p>
                     <button type="button" class="btn btn-info mt-auto" data-toggle="modal" data-target="#Stage-Two">
@@ -100,7 +98,7 @@
                     <p class="card-text"><strong>Terceira etapa</strong></p>
                     <p class="card-text">2015 - 2024</p>
                     <div class="w-100 d-flex justify-content-center">
-                        <img src="./img/summary-fullstack.jpeg" class="img-thumbnail" alt="Terceira etapa - Full stack" width="120" height="120">
+                        <img src="../img/summary/summary-fullstack.jpeg" class="img-thumbnail" alt="Terceira etapa - Full stack" width="120" height="120">
                     </div>
                     <p class="card-text">Transição de carreira para Desenvolvedora Web</p>
                     <button type="button" class="btn btn-info mt-auto" data-toggle="modal" data-target="#Stage-Three">
@@ -114,7 +112,7 @@
                     <p class="card-text"><strong>Quarta etapa</strong></p>
                     <p class="card-text">desde 2024</p>
                     <div class="w-100 d-flex justify-content-center">
-                        <img src="./img/summary-ia.jpg" class="img-thumbnail" alt="Quarta etapa - Inteligência Artificial" width="120" height="120">
+                        <img src="../img/summary/summary-ia.jpg" class="img-thumbnail" alt="Quarta etapa - Inteligência Artificial" width="120" height="120">
                     </div>
                     <p class="card-text">Descobrindo a Inteligência Artificial</p>
                     <button type="button" class="btn btn-info mt-auto" data-toggle="modal" data-target="#Stage-Four">
@@ -337,7 +335,7 @@
 
             <div id="footer">
                 <script>
-                fetch('common_footer.html')
+                fetch('../page_pt/common_footer.html')
                     .then(response => response.text())
                     .then(data => {
                     document.getElementById('footer').innerHTML = data;
@@ -346,18 +344,6 @@
             </div>
 
     </footer>
-    <!------------------------------------------------------------------------------------------------ FINISH FOOTER -->
-        
-    <!--------------------------------------------------------------------------------------------------- JAVASCRIPT -->    
-    <script language=javascript type="text/javascript" src="./js/generateSummary.js"></script>
-
-    <script>
-
-        $(document).ready(function () {
-            generateSummary();
-        });
-
-    </script>
 
 </body>
 <!------------------------------------------------------------------------------------------------------- FINISH BODY-->
