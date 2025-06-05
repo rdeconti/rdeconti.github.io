@@ -13,8 +13,8 @@
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <link rel="stylesheet" type="text/css" href="/rdeconti.github.io/css/style.css">
-        <link rel="stylesheet" type="text/css" href="/rdeconti.github.io/css/social.css">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <link rel="stylesheet" type="text/css" href="/css/social.css">
 
         <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -31,7 +31,7 @@
 
             <div id="header">
                 <script>
-                fetch("/rdeconti.github.io/page_en/common_header-en.html")
+                fetch("/page_en/common_header-en.html")
                     .then(response => response.text())
                     .then(data => {
                     document.getElementById('header').innerHTML = data;
@@ -41,7 +41,7 @@
 
             <div id="nav">
                 <script>
-                fetch("/rdeconti.github.io/page_en/common_menu-en.html")
+                fetch("/page_en/common_menu-en.html")
                     .then(response => response.text())
                     .then(data => {
                     document.getElementById('nav').innerHTML = data;
@@ -55,10 +55,10 @@
             
             <div class="d-flex justify-content-center my-3">
                 <button type="button" id="btn-pt" class="btn btn-light p-1 mx-1" title="Português" aria-label="Português">
-                    <img src="/rdeconti.github.io/img/flags/flag-br.png" alt="Bandeira do Brasil" style="height:24px;">
+                    <img src="/img/flags/flag-br.png" alt="Bandeira do Brasil" style="height:24px;">
                 </button>
                 <button type="button" id="btn-en" class="btn btn-light p-1 mx-1" title="English" aria-label="English">
-                    <img src="/rdeconti.github.io/img/flags/flag-uk.png" alt="UK Flag" style="height:24px;">
+                    <img src="/img/flags/flag-uk.png" alt="UK Flag" style="height:24px;">
                 </button>
             </div>
 
@@ -83,7 +83,7 @@
 
             <div id="footer">
                 <script>
-                fetch("/rdeconti.github.io/page_en/common_footer-en.html")
+                fetch("/page_en/common_footer-en.html")
                     .then(response => response.text())
                     .then(data => {
                     document.getElementById('footer').innerHTML = data;
